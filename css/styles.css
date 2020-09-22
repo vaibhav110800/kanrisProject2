@@ -132,15 +132,18 @@ nav ul li a:hover{
     font-family: 'Lato', sans-serif;
     font-size: 70px;
     margin: auto;
-    top: -20%; left: 0; bottom: 0; right: 0;
+    top: 33%; 
+    left: 5%;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: white;
     letter-spacing: 4px;
     cursor: context-menu;
     text-transform: uppercase;
     text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .des-box{
