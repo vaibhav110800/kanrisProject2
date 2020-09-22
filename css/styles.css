@@ -143,13 +143,15 @@ nav ul li a:hover{
     border-radius:5px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
     transition: 0.2s ease-in;
+    color: #8a8889;
 }
 .des-box-box:hover{
     background-color:#8a8889;
+    color: #d95322;
 }
 
 .des-box-box-text:hover{
-    color:black;
+    
 }
 
 
@@ -168,7 +170,7 @@ nav ul li a:hover{
     text-align: center;
     font-size: 25px;
     font-family: 'Josefin Sans', sans-serif;
-    color: #8a8889;
+    
     font-weight: 900;
 }
 
