@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vastu</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="https://kit.fontawesome.com/5f8269d684.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <div class="header-one">
+        <header>
+            <nav class="shift">
+                <div class="menu-icon">
+                    <i class="fa fa-bars fa-2x"></i>
+                </div>
+
+                <div class="logo">
+                    <a href="index.html"><img class="logo-img" src="images/1.header/vastu.svg" alt=""></a>
+                </div>
+
+                <div class="menu">
+                    <ul>
+                        <li><a href="#" class="active">HOME</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">PROJECTS</a></li>
+                        <li><a href="#">SERVICES</a></li>
+                        <li><a href="#">BLOGS</a></li>
+                        <li><a href="#">CONTACT US</a></li>
+                        <li style="display: none;"><a href="#">footer</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <div class="des-box">
+            <div class="des-box-box">
+                <div>
+                    <img class="des-box-box-img" src="images/1.header/1.search.svg" alt="">
+                </div>
+                <div class="des-box-box-text">
+                    SEARCH
+                </div>
+            </div>
+
+            <div class="des-box-box">
+                <div>
+                    <img class="des-box-box-img" src="images/1.header/2.buy.svg" alt="">
+                </div>
+                <div class="des-box-box-text">
+                    BUY
+                </div>
+            </div>
+
+            <div class="des-box-box">
+                <div>
+                    <img class="des-box-box-img" src="images/1.header/undraw_Ordinary_day_3gk3.svg" alt="">
+                </div>
+                <div class="des-box-box-text">
+                    COMPARE
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="content">
+
+    </div>
+
+
+    <script type="text/javascript">
+
+        // Menu-toggle button
+
+        $(document).ready(function () {
+            $(".menu-icon").on("click", function () {
+                $("nav ul").toggleClass("showing");
+            });
+        });
+
+        // Scrolling Effect
+
+        $(window).on("scroll", function () {
+            if ($(window).scrollTop()) {
+                $('nav').addClass('black');
+            }
+
+            else {
+                $('nav').removeClass('black');
+            }
+        });
+    </script>
+
+</body>
+
+</html>
