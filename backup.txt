@@ -1,0 +1,231 @@
+<!------------------------- projects ---------------------------->
+    <div id="project" class="project">
+        <h1 class="about-heading">OUR PROJECTS</h1>
+
+        <div class="pro-box">
+
+            <div class="pro-box-box">
+
+
+                <div class="slideshows cen">
+                    <div class="slides">
+                        <input type="radio" name="p" id="c11" checked>
+                        <input type="radio" name="p" id="c12">
+                        <input type="radio" name="p" id="c13">
+
+                        <div class="slide pc1">
+                            <img src="images/3.projects/1.1.jpg" alt="">
+                        </div>
+
+                        <div class="slide">
+                            <img src="images/3.projects/1.2.jpg" alt="">
+                        </div>
+
+                        <div class="slide">
+                            <img src="images/3.projects/1.3.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="change">
+                        <label for="c11" class="tool"></label>
+                        <label for="c12" class="tool"></label>
+                        <label for="c13" class="tool"></label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pro-box-box">
+                <div class="slideshows cen">
+                    <div class="slides">
+                        <input type="radio" name="q" id="c21" checked>
+                        <input type="radio" name="q" id="c22">
+                        <input type="radio" name="q" id="c23">
+
+                        <div class="slide pc2">
+                            <img src="images/3.projects/2.1.jpg" alt="">
+                        </div>
+
+                        <div class="slide">
+                            <img src="images/3.projects/2.2.jpg" alt="">
+                        </div>
+
+                        <div class="slide">
+                            <img src="images/3.projects/2.3.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="change">
+                        <label for="c21" class="tool"></label>
+                        <label for="c22" class="tool"></label>
+                        <label for="c23" class="tool"></label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pro-box-box">
+                <div class="slideshows cen">
+                    <div class="slides">
+                        <input type="radio" name="r" id="c31" checked>
+                        <input type="radio" name="r" id="c32">
+                        <input type="radio" name="r" id="c33">
+
+                        <div class="slide pc3">
+                            <img src="images/3.projects/3.1.jpg" alt="">
+                        </div>
+
+                        <div class="slide">
+                            <img src="images/3.projects/3.2.jpg" alt="">
+                        </div>
+
+                        <div class="slide">
+                            <img src="images/3.projects/3.3.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="change">
+                        <label for="c31" class="tool"></label>
+                        <label for="c32" class="tool"></label>
+                        <label for="c33" class="tool"></label>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+    <!------------------------- end projects ------------------------->
+
+
+
+
+/* ----------------------- projects ------------------------ */
+
+.project{
+    padding: 25px 0px;
+}
+
+.pro-box{
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 100%; */
+    margin: 0 auto;
+}
+
+.pro-box-box{
+    border-radius: 8px;
+    width:400px;
+    height: 55vh;
+    margin: 0 18px;
+    background-color: #f4f3f3;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    transition: 0.2s;
+}
+.pro-box-box:hover {
+    transform: translateY(-0.7%);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+  }
+
+  /* .card-img {
+    display: block;
+    width: 100%;
+    height: 18rem;
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  } */
+
+  /* .card-img:hover{
+    transform: scale(1.05);
+  } */
+
+.slideshows{
+    height: 18rem;
+    width: 400px;
+    overflow: hidden;
+}
+/* .cen{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,50%);
+} */
+.change{
+    position: absolute;
+    display: flex;
+    /* left: 10%; */
+    transform: translateX(20%);
+    
+}
+
+.tool{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    transition: .5s;
+    border: 2px solid #d95322;
+    border-radius: 50%;
+    margin: 8px 4px;
+}
+.tool:hover{
+    background-color: #d95322;
+}
+input[name="p"]{
+    position: absolute;
+    visibility: hidden;
+}
+input[name="q"]{
+    position: absolute;
+    visibility: hidden;
+}
+input[name="r"]{
+    position: absolute;
+    visibility: hidden;
+}
+.slides{
+    height: 100%;
+    width: 500%;
+    display: flex;
+}
+.slide{
+    width: 20%;
+    transition: .5s;
+}
+.slide img{
+    width: 100%;
+    height: 100%;
+}
+
+
+#c11:checked ~ .pc1{
+    margin-left: 0%;
+}
+#c12:checked ~ .pc1{
+    margin-left: -20%;
+}
+#c13:checked ~ .pc1{
+    margin-left: -40%;
+}
+
+
+#c21:checked ~ .pc2{
+    margin-left: 0%;
+}
+#c22:checked ~ .pc2{
+    margin-left: -20%;
+}
+#c23:checked ~ .pc2{
+    margin-left: -40%;
+}
+
+#c31:checked ~ .pc3{
+    margin-left: 0%;
+}
+#c32:checked ~ .pc3{
+    margin-left: -20%;
+}
+#c33:checked ~ .pc3{
+    margin-left: -40%;
+}

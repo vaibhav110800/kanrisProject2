@@ -68,6 +68,7 @@ nav {
     position: fixed;
     width: 100%;
     line-height: 60px;
+    z-index: 2;
 }
 
 nav ul {
@@ -280,22 +281,18 @@ nav ul li a:hover{
           max-height: 0px;
           background: #000;
     }
-
     nav.black ul {
           background: #000;
     }
-
     .showing {
           max-height: 34em;
     }
-
     nav ul li {
           box-sizing: border-box;
           width: 100%;
           padding: 24px;
           text-align: center;
     }
-
     .menu-icon {
           display: block;
           padding-left: 15px;
@@ -444,4 +441,148 @@ nav ul li a:hover{
         font-size: 12px;
         line-height: 18px;
     }
+}
+
+/* ----------------------- projects ------------------------ */
+
+.project{
+    padding: 25px 0px;
+}
+
+.pro-box{
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* margin: 0 auto; */
+}
+
+.pro-box-box{
+    border-radius: 8px;
+    width:400px;
+    height: 55vh;
+    margin: 0 18px;
+    background-color: #f4f3f3;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    transition: 0.2s;
+}
+.pro-box-box:hover {
+    transform: translateY(-0.7%);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+  }
+
+
+.slideshows{
+    height: 18rem;
+    width: 400px;
+    overflow: hidden;
+}
+
+.change{
+    position: absolute;
+    display: flex;
+    transform: translateX(20%);
+}
+
+.tool{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    transition: .5s;
+    border: 2px solid #d95322;
+    border-radius: 50%;
+    margin: 8px 4px;
+}
+.tool:hover{
+    background-color: #d95322;
+}
+input[name="p"]{
+    position: absolute;
+    visibility: hidden;
+}
+input[name="q"]{
+    position: absolute;
+    visibility: hidden;
+}
+input[name="r"]{
+    position: absolute;
+    visibility: hidden;
+}
+.slides{
+    height: 100%;
+    width: 500%;
+    display: flex;
+}
+.slide{
+    width: 20%;
+    transition: .5s;
+}
+.slide img{
+    width: 100%;
+    height: 100%;
+}
+
+
+#c11:checked ~ .pc1{
+    margin-left: 0%;
+}
+#c12:checked ~ .pc1{
+    margin-left: -20%;
+}
+#c13:checked ~ .pc1{
+    margin-left: -40%;
+}
+
+
+#c21:checked ~ .pc2{
+    margin-left: 0%;
+}
+#c22:checked ~ .pc2{
+    margin-left: -20%;
+}
+#c23:checked ~ .pc2{
+    margin-left: -40%;
+}
+
+#c31:checked ~ .pc3{
+    margin-left: 0%;
+}
+#c32:checked ~ .pc3{
+    margin-left: -20%;
+}
+#c33:checked ~ .pc3{
+    margin-left: -40%;
+}
+
+@media screen and (min-width:768px) and (max-width:1300px){
+    
+    .pro-box-box{
+        width:220px;
+        height: 40vh;
+        margin: 10px 13px;
+    }
+    
+    .slideshows{
+        height: 13rem;
+        width: 220px;
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width:767px){
+    .pro-box{
+        flex-direction: column;
+    }
+    .pro-box-box{
+        width:280px;
+        margin: 10px 13px;
+    }
+    
+    .slideshows{
+        height: 15rem;
+        width: 280px;
+        overflow: hidden;
+    }
+    
 }
