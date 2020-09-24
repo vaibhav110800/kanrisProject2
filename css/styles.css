@@ -574,6 +574,30 @@ input[name="r"]{
     text-transform: uppercase;
 }
 
+.pro-button{
+    text-align: center;
+    margin-top: 4%;
+}
+
+.btn-0{
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    border: 3px solid  #8a8889;
+    color: #8a8889;
+    border-radius: 8px;
+    padding: 12px 28px;
+    letter-spacing: 2px;
+    transition: .05s ease-out;
+}
+
+.btn-0:hover{
+    color: #d95322;
+    border: 5px solid  #d95322;
+}
+
+
+
 @media screen and (min-width:1060px) and (max-width:1300px){
     
     .pro-box-box{
