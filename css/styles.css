@@ -672,3 +672,91 @@ input[name="r"]{
     }
     
 }
+
+/* ----------------------- services ------------------------ */
+
+.services{
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ser-box{
+    width: 90%;
+    margin: 0 auto;
+    min-height: 80vh;
+    display: flex;
+    border-radius: 8px;
+}
+
+.ser-box-left{
+    position: relative;
+    width: 40%;
+    background:linear-gradient(0deg, rgba(217,83,34, .6), rgba(217,83,34,0.6)), url(../images/4.services/1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    height: inherit;
+    background-color:yellowgreen;
+    /* display: flex;
+    justify-content: left;
+    align-items: center; */
+}
+
+.ser-box-left-text{
+    position: absolute;
+    width: 70%;
+    /* margin: auto; */
+    top: 20%;
+    left: 10%;
+}
+
+.ser-box-left-text h1{
+    font-family: 'Lato', sans-serif;
+    font-size: 60px;
+    color: #D5DBDB;
+
+}
+
+.ser-box-left-text p{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #D5DBDB;
+    font-size: 25px;
+}
+
+.ser-box-right{
+    width: 60%;
+    height: inherit;
+    background-color:brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(0deg, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(../images/4.services/3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+.ser-box-right-inner{
+    height: 80%;
+    width: 100%;
+    background: linear-gradient(0deg, rgba(255, 255, 255, .8), rgba(255, 255, 255, .8));
+    display: flex;
+    flex-direction: column;
+    transform: translateX(-10%);
+}
+
+.inner-top{
+    height: 50%;
+    width: inherit;
+    display: flex;
+}
+
+.inner-top-left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
