@@ -85,7 +85,7 @@ nav ul {
 }
 
 nav.black ul {
-    background: linear-gradient(0deg,rgba(255, 255, 255, .9), rgba(255, 255, 255, .9));
+    background: linear-gradient(0deg,rgba(215, 219, 221 , .7), rgba(215, 219, 221 , .7));
 }
 
 nav ul li {
@@ -716,7 +716,6 @@ input[name="r"]{
     font-family: 'Lato', sans-serif;
     font-size: 60px;
     color: #D5DBDB;
-
 }
 
 .ser-box-left-text p{
@@ -759,4 +758,118 @@ input[name="r"]{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+
+.inner-top-left i{
+    position: absolute;
+    color: #d95322;
+    left: 37%;
+    top: 30%;
+}
+.ser-right-text{
+    position: absolute;
+    top: 60%;
+    margin-top: 4%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 23px;
+    color: #8a8889;
+    font-weight: 900;
+}
+
+@media screen and (min-width:930px) and (max-width:1029px){
+    .ser-box-right-inner{
+        transform: translateX(-5%);
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:929px){
+    .ser-box-right-inner{
+        transform: translateX(-5%);
+    }
+
+    .ser-box-left-text{
+        top: 30%;
+    }
+    .ser-box-left-text h1{
+        font-size: 50px;
+    }
+    .ser-right-text{
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width:600px)  and (max-width:767px){
+    .services{
+        min-height: 80vh;
+    }
+    
+    .ser-box{
+        min-height: 70vh;
+    }
+    
+    .ser-box-left-text{
+        top: 30%;
+        left: 10%;
+    }
+    
+    .ser-box-left-text h1{
+        font-size: 40px;
+    }
+    
+    .ser-box-left-text p{
+        font-size: 18px;
+    }
+    
+    .ser-box-right-inner{
+        transform: translateX(-3%);
+    }
+        
+    .inner-top-left i{
+        left: 30%;
+        top: 30%;
+    }
+    .ser-right-text{
+        top: 70%;
+        margin-top: 3%;
+        font-size: 13px;
+        
+    }
+}
+
+@media screen  and (max-width:599px){
+    
+    .ser-box-left-text{
+        top: 40%;
+        left: 10%;
+    }
+    
+    .ser-box-left-text h1{
+        font-size: 25px;
+    }
+    
+    .ser-box-left-text p{
+        font-size: 10px;
+    }
+    
+    .ser-box-right-inner{
+        transform: translateX(-2%);
+    }
+        
+    .inner-top-left i{
+        left: 30%;
+        top: 40%;
+        
+    }
+    .fas{
+        font-size: 50px;
+    }
+    .ser-right-text{
+        top: 70%;
+        margin-top: 3%;
+        font-size: 8px;
+        
+    }
 }
