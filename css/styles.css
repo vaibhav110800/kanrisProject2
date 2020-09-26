@@ -797,7 +797,7 @@ input[name="r"]{
         font-size: 50px;
     }
     .ser-right-text{
-        font-size: 20px;
+        font-size: 18px;
     }
 }
 
@@ -840,6 +840,9 @@ input[name="r"]{
 }
 
 @media screen  and (max-width:599px){
+    .ser-box{
+        width: 95%;
+    }
     
     .ser-box-left-text{
         top: 40%;
@@ -871,5 +874,131 @@ input[name="r"]{
         margin-top: 3%;
         font-size: 8px;
         
+    }
+}
+
+/* ----------------------- footer ------------------------ */
+
+#footer{
+    background: linear-gradient(0deg, rgba(138,136,137, .8), rgba(138,136,137, .8)), url(../images/5.footer/patrick-pellegrini--z9qR62Xulw-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 98%;
+    margin:40px auto;
+}
+
+.footer{
+    min-height: 40vh;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-box{
+    /* background-color: #f4f3f3; */
+    width: 30%;
+    margin:0 auto;
+    min-height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #E5E7E9 ;
+    font-family: 'Lato', sans-serif;
+}
+
+.footer-text{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.footer-box a{
+    text-decoration: none;
+    color: #E5E7E9 ;
+    padding-bottom: 10px;
+    font-size: 18px;
+    transition: .1s ease-out;
+}
+.footer-box a:hover{
+    color:white;
+    transform: scale(1.1);
+}
+
+.footer-box a span{
+    color: #d95322;
+    /* padding-right: 10px; */
+    height: 30px !important;
+  width: 30px !important;
+  line-height: 30px;
+  text-align: center;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  border: 1px solid #d95322;
+  transition: .3s;
+  display: inline-block;
+}
+
+.social-media a i{
+    padding-right: 10px;
+    transition: .1s ease-out;
+}
+
+.social-media a i:hover{
+    color:white;
+    transform: scale(1.2);
+}
+
+@media screen and (min-width:720px)  and (max-width:939px){
+    .footer{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:719px){
+    .footer{
+        width: 98%;
+    }
+
+    .footer-text{
+        
+        font-size: 8px;
+        line-height: 10px;
+    }
+    .footer-box img{
+        width: 50px;
+    }
+    .footer-box a{
+        padding-bottom: 5px;
+        font-size: 8px;
+        transition: .1s ease-out;
+    }
+    
+    .footer-box a span{
+        color: #d95322;
+        height: 20px !important;
+        width: 20px !important;
+        line-height: 20px;
+        text-align: center;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        border-radius: 50%;
+        border: 1px solid #d95322;
+        transition: .3s;
+        display: inline-block;
+    }
+    .footer-box a span i{
+        font-size: 11px;
+    }
+    
+    .social-media a i{
+        padding-right: 10px;
+        transition: .1s ease-out;
+        font-size: 11px;
     }
 }
