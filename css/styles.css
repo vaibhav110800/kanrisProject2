@@ -454,8 +454,16 @@ nav ul li a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     width: 100%;
     /* margin: 0 auto; */
+}
+
+.pro-box-outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
 .pro-box-box{
@@ -657,7 +665,7 @@ input[name="r"]{
 }
 
 @media screen and (max-width:767px){
-    .pro-box{
+    .pro-box-outer{
         flex-direction: column;
     }
     .pro-box-box{
@@ -976,7 +984,7 @@ input[name="r"]{
     .footer-box a{
         padding-bottom: 5px;
         font-size: 8px;
-        transition: .1s ease-out;
+        transition: .2s ease-out;
     }
     
     .footer-box a span{
