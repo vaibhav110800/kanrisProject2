@@ -915,7 +915,7 @@ input[name="r"]{
     background-repeat: no-repeat;
     background-position:center;
     width: 100%;
-    margin:40px auto;
+    margin:40px auto 20px auto;
 }
 
 .footer{
