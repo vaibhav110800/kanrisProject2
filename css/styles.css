@@ -1043,3 +1043,230 @@ input[name="r"]{
     padding-bottom: 12px;
     color: #8a8889;
 }
+
+/* ------------------------ contact us -------------------------- */
+
+.contact{
+    min-height: 90vh;
+    background-color: white;
+    padding: 40px 0px;
+}
+
+.contact-button{
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.contact-button-box{
+    width: 26%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #8a8889;
+    border-bottom: 2px solid #d95322;
+    cursor: pointer;
+    padding-bottom: 5px;
+    transition: 0.3s ease-in-out;
+}
+.contact-button-box:hover{
+    transform: scale(1.03);
+    color: #d95322;
+}
+
+.contact-form{
+    width: 70%;
+    margin: 0 auto;
+}
+.contact-form h1{
+    color: #d95322;
+    font-size: 40px;
+    padding-top: 15px;
+    font-family: 'Open Sans', sans-serif; 
+}
+
+.c-form {
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c-form-inner{
+    min-height: 80vh;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, .8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c-form form label{
+    font-family: 'Lato', sans-serif;
+    color: #d95322;
+    display: inline-block;
+    width: 250px;
+    padding-bottom: 5%;
+}
+
+.c-form form input,textarea{
+    outline: none;
+	border: none;
+  	background: transparent;
+  	border-bottom: 2px solid #d95322;
+    margin-left: 5px;
+    display: inline-block;
+    width: 400px;
+}
+.c-form form textarea{
+    height: 60px;
+}
+.c1 h1{
+    text-align: left;
+}
+.c2 h1{
+    text-align: center;
+}
+.c3 h1{
+    text-align: right;
+}
+.c1-form{
+    background: url(../images/6.contactUs/1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.c2-form{
+    background:url(../images/6.contactUs/2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.c3-form{
+    background:url(../images/6.contactUs/3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+@media screen and (min-width:930px) and (max-width:1189px){
+    .contact-button{
+        width: 80%;
+    }
+    
+    .contact-button-box{
+        width: 26%;
+    }
+
+    .contact-form{
+        width: 90%;
+    }
+    .contact-form h1{
+        font-size: 40px;
+    }
+    
+    .c-form {
+        width: 100%;
+        min-height: 80vh;
+    }
+    
+    .c-form-inner{
+        min-height: 63vh;
+        width: 80%;
+        font-size: 22px;
+    }
+    .c-form form label{
+        width: 250px;
+    }
+    
+    .c-form form input,textarea{
+        width: 400px;
+    }
+    .c-form form textarea{
+        height: 60px;
+    }
+}
+
+@media screen and (min-width:550px) and (max-width:929px){
+    .contact-button{
+        width: 90%;
+    }
+    
+    .contact-button-box{
+        width: 26%;
+        font-size: 10px;
+    }
+
+    .contact-form{
+        width: 95%;
+    }
+    .contact-form h1{
+        font-size: 40px;
+    }
+    
+    .c-form {
+        width: 100%;
+        min-height: 80vh;
+    }
+    
+    .c-form-inner{
+        min-height: 63vh;
+        width: 90%;
+        font-size: 15px;
+    }
+    .c-form form label{
+        width: 150px;
+    }
+    
+    .c-form form input,textarea{
+        width: 300px;
+    }
+    .c-form form textarea{
+        height: 60px;
+    }
+}
+
+@media screen and (max-width:549px){
+    .contact-button{
+        width: 90%;
+    }
+    
+    .contact-button-box{
+        font-size: 8px;
+        width: 26%;
+    }
+
+    .contact-form{
+        width: 95%;
+    }
+    .contact-form h1{
+        font-size: 25px;
+    }
+    
+    .c-form {
+        width: 100%;
+        min-height: 80vh;
+    }
+    
+    .c-form-inner{
+        min-height: 63vh;
+        width: 90%;
+        font-size: 8px;
+    }
+    .c-form form label{
+        width: 90px;
+    }
+    
+    .c-form form input,textarea{
+        width: 150px;
+    }
+    .c-form form textarea{
+        height: 40px;
+    }
+}
+
+
