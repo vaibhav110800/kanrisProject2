@@ -1125,6 +1125,31 @@ input[name="r"]{
 .c-form form textarea{
     height: 60px;
 }
+
+.c-form form input,textarea::placeholder{
+    color:#797D7F;
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+.c-form-inner form button{
+    cursor: pointer;
+    font-size: 16px;
+    padding: 8px 18px;
+    margin-top: 30px;
+    border: 2px solid #d95322;
+    border-radius: 8px;
+    color:white;
+    background-color: #d95322;
+    font-family: 'Open Sans', sans-serif; 
+    transition: .2s ease-in-out;
+}
+.c-form-inner form button:hover{
+    background-color:#8a8889;
+    border: 2px solid #8a8889;
+}
+
 .c1 h1{
     text-align: left;
 }
@@ -1189,6 +1214,9 @@ input[name="r"]{
     .c-form form textarea{
         height: 60px;
     }
+    .c-form form input,textarea::placeholder{
+        font-size: 15px;
+    }
 }
 
 @media screen and (min-width:550px) and (max-width:929px){
@@ -1228,6 +1256,13 @@ input[name="r"]{
     .c-form form textarea{
         height: 60px;
     }
+    .c-form-inner form button{
+        font-size: 14px;
+        padding: 6px 15px;
+    }
+    .c-form form input,textarea::placeholder{
+        font-size: 12px;
+    }
 }
 
 @media screen and (max-width:549px){
@@ -1266,6 +1301,13 @@ input[name="r"]{
     }
     .c-form form textarea{
         height: 40px;
+    }
+    .c-form form input,textarea::placeholder{
+        font-size: 9px;
+    }
+    .c-form-inner form button{
+        font-size: 10px;
+        padding: 2px 11px;
     }
 }
 
