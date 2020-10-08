@@ -1123,7 +1123,11 @@ input[name="r"]{
     width: 400px;
 }
 .c-form form textarea{
-    height: 60px;
+    height: 60px;color:#797D7F;
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 15px;
 }
 
 .c-form form input,textarea::placeholder{
@@ -1133,6 +1137,7 @@ input[name="r"]{
     letter-spacing: 2px;
     font-size: 15px;
 }
+
 .c-form-inner form button{
     cursor: pointer;
     font-size: 16px;
@@ -1311,4 +1316,54 @@ input[name="r"]{
     }
 }
 
+.success{
+    height: 60vh;
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.success-img img{
+    height: 20vh;
+    padding-bottom: 20px;
+}
 
+.success-text{
+    text-align: center;
+}
+.success-text-h{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #d95322;
+    font-size: 30px;
+}
+.success-text-p{
+    font-family: 'Open Sans', sans-serif; 
+    color:grey;
+    font-size: 18px;
+}
+
+.fail{
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.fail-img img{
+    height: 23vh;
+    padding-bottom: 20px;
+}
+.fail-text{
+    text-align: center;
+}
+.fail-text-h{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #d95322;
+    font-size: 30px;
+}
+.fail-text-p{
+    font-family: 'Open Sans', sans-serif; 
+    color:grey;
+    font-size: 18px;
+}
