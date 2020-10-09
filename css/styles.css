@@ -455,26 +455,30 @@ nav ul li a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    /* flex-direction: column; */
     width: 100%;
+    flex-wrap: wrap;
     /* margin: 0 auto; */
 }
 
-.pro-box-outer{
+/* .pro-box-outer{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
-}
+} */
 
 .pro-box-box{
     border-radius: 8px;
     width:400px;
-    min-height: 30vh;
+    min-height: 40vh;
     margin: 0 18px;
     background-color: #f4f3f3;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
     transition: 0.2s;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
 }
 .pro-box-box:hover {
     transform: translateY(-0.7%);
@@ -518,6 +522,18 @@ input[name="r"]{
     position: absolute;
     visibility: hidden;
 }
+input[name="p1"]{
+    position: absolute;
+    visibility: hidden;
+}
+input[name="q1"]{
+    position: absolute;
+    visibility: hidden;
+}
+input[name="r1"]{
+    position: absolute;
+    visibility: hidden;
+}
 .slides{
     height: 100%;
     width: 500%;
@@ -542,8 +558,6 @@ input[name="r"]{
 #c13:checked ~ .pc1{
     margin-left: -40%;
 }
-
-
 #c21:checked ~ .pc2{
     margin-left: 0%;
 }
@@ -553,7 +567,6 @@ input[name="r"]{
 #c23:checked ~ .pc2{
     margin-left: -40%;
 }
-
 #c31:checked ~ .pc3{
     margin-left: 0%;
 }
@@ -561,6 +574,34 @@ input[name="r"]{
     margin-left: -20%;
 }
 #c33:checked ~ .pc3{
+    margin-left: -40%;
+}
+
+#c111:checked ~ .pc4{
+    margin-left: 0%;
+}
+#c121:checked ~ .pc4{
+    margin-left: -20%;
+}
+#c131:checked ~ .pc4{
+    margin-left: -40%;
+}
+#c211:checked ~ .pc5{
+    margin-left: 0%;
+}
+#c221:checked ~ .pc5{
+    margin-left: -20%;
+}
+#c231:checked ~ .pc5{
+    margin-left: -40%;
+}
+#c311:checked ~ .pc6{
+    margin-left: 0%;
+}
+#c321:checked ~ .pc6{
+    margin-left: -20%;
+}
+#c331:checked ~ .pc6{
     margin-left: -40%;
 }
 
@@ -605,7 +646,26 @@ input[name="r"]{
     border: 5px solid  #d95322;
 }
 
-
+.search{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.search input[type="text"], input[type="password"], textarea, select { 
+    outline: none;
+}
+.search input:focus::placeholder {
+    color: transparent;
+  }
+#searchbar{
+    border:2px solid #d95322;   
+    padding: 10px 0;
+    border-radius: 8px;
+    width: 300px;
+    padding-left: 1%;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: grey;
+}
 
 @media screen and (min-width:1060px) and (max-width:1300px){
     
