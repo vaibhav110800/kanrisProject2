@@ -481,7 +481,7 @@ nav ul li a:hover{
     margin-bottom: 20px;
 }
 .pro-box-box:hover {
-    transform: translateY(-0.7%);
+    /* transform: translateY(-0.7%); */
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
   }
 
@@ -623,7 +623,27 @@ input[name="r1"]{
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
 }
-
+.pro-text-button{
+    padding: 5px 0 10px 0;
+}
+.pro-text-button a{
+    font-size: 10px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #d95322;
+    /* box-shadow: 0px 3px 8px 2px rgba(168,158,168,1); */
+    border: 2px solid #d95322;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 8px;
+    transition: .2s ease-in-out;
+}
+.pro-text-button a:hover{
+    background-color:transparent;
+    box-shadow: .5px 2px 8px 2px rgba(168,158,168,1);
+    color: #d95322;
+}
 .pro-button{
     text-align: center;
     margin-top: 4%;
@@ -742,6 +762,394 @@ input[name="r1"]{
     
 }
 
+    /* -------------------- malvan heights --------------------- */
+
+    .pproduct{
+        padding: 60px 0 0 0;
+        min-height: 90vh;
+    }
+
+    .pproduct-heading{
+        width: 70%;
+        margin: 20px auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .pproduct-heading-main{
+        font-family: 'Lato', sans-serif;
+        color: #d95322;
+        font-size: 50px;
+        letter-spacing: 2px;
+    }
+    .pproduct-heading-button{
+        display: flex;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 12px;
+    }
+    .pproduct-heading-button1 a{
+        text-decoration: none;
+        background-color: #d95322;
+        border: 2px solid #d95322;
+        color: white;
+        margin-right: 10px;
+        padding: 8px 10px;
+        border-radius: 12px;
+        transition: .2s ease-in-out;
+    }
+    .pproduct-heading-button1 a:hover{
+        background-color: #8a8889;
+        border: 2px solid #8a8889;
+    }
+    .pproduct-heading-button2 a{
+        text-decoration: none;
+        background-color: transparent;
+        border: 2px solid #d95322;
+        color: #d95322;
+        margin-right: 10px;
+        padding: 8px 10px;
+        border-radius: 12px;
+        transition: .2s ease-in-out;
+    }
+    .pproduct-heading-button2 a:hover{
+        border: 2px solid #8a8889;
+        color: #8a8889;
+    }
+    /* ------slider----- */
+    #pslider {
+        margin:0 auto;
+        padding: 30px 0;
+        width: 90%;
+        text-align: center;
+     }
+     #pslider input[type=radio] {
+        display: none;
+     }
+     #pslider label {
+        cursor:pointer;
+        text-decoration: none;
+     }
+     #pslides {
+        background: #fff;
+        position: relative;
+        z-index: 1;
+        
+     }
+     #overflow {
+        width: 100%;
+        overflow: hidden;
+     }
+     #slide1:checked ~ #pslides .inner {
+        margin-left: 0;
+     }
+     #slide2:checked ~ #pslides .inner {
+        margin-left: -100%;
+     }
+     #slide3:checked ~ #pslides .inner {
+        margin-left: -200%;
+     }
+     #slide4:checked ~ #pslides .inner {
+        margin-left: -300%;
+     }
+     #pslides .inner {
+        transition: margin-left 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+        width: 400%;
+        line-height: 0;
+        height: 300px;
+     }
+     #pslides .pslide {
+        width: 25%;
+        float:left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        color: #fff;
+        height: 67vh;
+     }
+     #pslides .slide_1 {
+        background:url(../images/3.projects/1.malvan_heights/1.1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+     }
+     #pslides .slide_2 {
+        background: url(../images/3.projects/1.malvan_heights/1.2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+     }
+     #pslides .slide_3 {
+        background:url(../images/3.projects/1.malvan_heights/1.3.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+     }
+     #pslides .slide_4 {
+        background: url(../images/3.projects/1.malvan_heights/1.4.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+     }
+     #bullets {
+        margin: 20px 0 0;
+        text-align: center;
+     }
+     #bullets label {
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        border-radius:100%;
+        background:transparent;
+        border: 2px solid #d95322;
+        margin: 0 10px;
+     }
+     #slide1:checked ~ #bullets label:nth-child(1),
+     #slide2:checked ~ #bullets label:nth-child(2),
+     #slide3:checked ~ #bullets label:nth-child(3),
+     #slide4:checked ~ #bullets label:nth-child(4) {
+        background: #d95322;
+     }
+
+     .pproduct-middle{
+         width: 90%;
+         margin: 0 auto;
+         min-height: 80vh;
+         /* background-color: antiquewhite; */
+         display: flex;
+     }
+
+     .pproduct-middle-left{
+         height: inherit;
+         width: 50%;
+         /* background-color: peru; */
+     }
+
+     .pproduct-middle-left-top{
+         width: 80%;
+         height: 70%;
+         display: flex;
+         justify-content: center;
+         flex-direction: column;
+         padding-left: 5%;
+     }
+     .pproduct-middle-left-top-heading{
+         font-size: 25px;
+         color: #d95322;
+         font-family: 'Josefin Sans', sans-serif;
+         padding-bottom: 15px;
+     }
+
+     .pproduct-middle-left-top-para{
+        font-size: 12px;
+        color:#8a8889;
+        font-family: 'Open Sans', sans-serif;
+        line-height: 20px;
+        padding-bottom: 10px;
+    }
+    .pproduct-middle-left-top-button a{
+        font-size: 10px;
+        text-decoration: none;
+        background-color: transparent;
+        border: 2px solid #d95322;
+        color: #d95322;
+        margin-right: 10px;
+        padding: 6px 8px;
+        border-radius: 12px;
+        transition: .2s ease-in-out;
+    }
+    .pproduct-middle-left-top-button a:hover{
+        border: 2px solid #8a8889;
+        color: #8a8889;
+    }
+   
+     .pproduct-middle-left-bottom{
+        height: 30%;
+        display: flex;
+    }
+
+    .pproduct-middle-left-bottom-box{
+        width: 33%;
+        margin: 0 2px;
+        
+    }
+    .s1{
+        background: url(../images/3.projects/1.malvan_heights/2.2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+    }
+    .s2{
+        background: url(../images/3.projects/1.malvan_heights/2.3.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+    }
+    .s3{
+        background: url(../images/3.projects/1.malvan_heights/2.4.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+    }
+     .pproduct-middle-right{
+        height: inherit;
+        width: 50%;
+        background: url(../images/3.projects/1.malvan_heights/2.1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        border: 1px solid white;
+    }
+
+    .pproduct-spec{
+        min-height: 40vh;
+        width: 90%;
+        margin: 30px auto;
+        display: flex;
+        padding-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .pproduct-spec-left{
+        width: 50%;
+    }
+    .pproduct-spec-left-top{
+        display: flex;
+        margin-bottom: 20px;
+    }
+    .pproduct-spec-left-top-left{
+        width: 40%;
+    }
+    .pproduct-spec-left-top-left-heading{
+        font-size: 17px;
+        color: #d95322;
+        font-family: 'Josefin Sans', sans-serif;
+        padding-bottom: 5px;
+    }
+    .pproduct-spec-left-top-left-para{
+        font-size: 13px;
+        color: #8a8889;
+        font-family: 'Open Sans', sans-serif;
+        margin-bottom: 15px;
+    }
+    .pproduct-spec-left-top-right{
+        width: 60%;
+        font-size: 12px;
+        color: #8a8889;
+        font-family: 'Open Sans', sans-serif;
+        line-height: 20px;
+    }
+    .pproduct-spec-left-top-right-inner{
+        width: 95%;
+    }
+    .pproduct-spec-left-bottom{
+        font-size: 12px;
+        color: #8a8889;
+        font-family: 'Open Sans', sans-serif;
+        line-height: 20px;
+    }
+    .pproduct-spec-right{
+        width: 50%;
+    }
+    .pproduct-spec-right-heading{
+        font-size: 20px;
+        color: #d95322;
+        font-family: 'Josefin Sans', sans-serif;
+        padding-bottom: 5px;
+        text-align: center;
+    }
+    .pproduct-spec-right-inner{
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        /* background-color: aquamarine; */
+    }
+    
+    .pproduct-spec-right-box{
+        /* background-color: burlywood; */
+        width: 30%;
+        margin:0 auto;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        min-height: 70px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .pproduct-spec-right-box-circle{
+        border: 2px solid #8a8889;
+        border-radius: 50% 50%;
+        width: 60px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    .pproduct-spec-right-box-circle i{
+        font-size: 30px;
+        color: #d95322;
+    }
+    .pproduct-spec-right-box-heading{
+        font-size: 12px;
+        color: #8a8889;
+        font-family: 'Josefin Sans', sans-serif;
+        padding-bottom: 5px;
+    }
+
+    .pproduct-bottom{
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        /* min-height: 40vh; */
+    }
+
+    .pproduct-bottom-left{
+        background: linear-gradient(0deg, rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../images/3.projects/1.malvan_heights/3.1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position:50% 50%;
+        width: 40%;
+        height: 60vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-right: 8px solid white;
+    }
+    .pproduct-bottom-left-heading{
+        font-size: 25px;
+        color:#d95322;
+        font-family: 'Josefin Sans', sans-serif;
+        padding-bottom: 20px;
+    }
+    .pproduct-bottom-left-button a{
+        font-family: 'open Sans', sans-serif;
+        font-size: 10px;
+        text-decoration: none;
+        background-color: #d95322;
+        border: 2px solid #d95322;
+        color: white;
+        margin-right: 10px;
+        padding: 6px 8px;
+        border-radius: 12px;
+        transition: .2s ease-in-out;
+    }
+    .pproduct-bottom-left-button a:hover{
+        background-color: #8a8889;
+        border: 2px solid #8a8889;
+    }
+    .pproduct-bottom-right{
+        width: 60%;
+    }
+    .pproduct-bottom-right iframe{
+        height: 60vh;
+    }
+
 /* ----------------------- services ------------------------ */
 
 .services{
@@ -767,7 +1175,7 @@ input[name="r1"]{
     background-repeat: no-repeat;
     background-position:center;
     height: inherit;
-    background-color:yellowgreen;
+    /* background-color:yellowgreen; */
     /* display: flex;
     justify-content: left;
     align-items: center; */
@@ -970,7 +1378,7 @@ input[name="r1"]{
 }
 
 #footer{
-    background: linear-gradient(0deg, rgba(138,136,137, .8), rgba(138,136,137, .8)), url(../images/5.footer/patrick-pellegrini--z9qR62Xulw-unsplash.jpg);
+    background: linear-gradient(0deg, rgba(0, 0, 0,.7), rgba(0, 0, 0,.7)), url(../images/5.footer/patrick-pellegrini--z9qR62Xulw-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position:center;
