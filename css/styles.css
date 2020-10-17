@@ -915,7 +915,6 @@ input[name="r1"]{
          width: 90%;
          margin: 0 auto;
          min-height: 80vh;
-         /* background-color: antiquewhite; */
          display: flex;
      }
 
@@ -1114,7 +1113,7 @@ input[name="r1"]{
         background-repeat: no-repeat;
         background-position:50% 50%;
         width: 40%;
-        height: 60vh;
+        height: 50vh;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1147,7 +1146,512 @@ input[name="r1"]{
         width: 60%;
     }
     .pproduct-bottom-right iframe{
-        height: 60vh;
+        height: 50vh;
+    }
+
+    @media screen and (min-width:1000px) and (max-width:1299px){
+        .pproduct{
+            padding: 60px 0 0 0;
+            min-height: 90vh;
+        }
+        .pproduct-heading{
+            width: 70%;
+            margin: 20px auto;
+        }
+        .pproduct-heading-main{
+            font-size: 50px;
+            letter-spacing: 2px;
+        }
+        .pproduct-heading-button{
+            font-size: 12px;
+        }
+        .pproduct-heading-button1 a{
+            margin-right: 10px;
+            padding: 8px 10px;
+        }
+        .pproduct-heading-button2 a{
+            margin-right: 10px;
+            padding: 8px 10px;
+        }
+        #pslider {
+            margin:0 auto;
+            padding: 30px 0;
+            width: 90%;
+         }
+         #pslides .inner {
+            transition: margin-left 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+            width: 400%;
+            line-height: 0;
+            height: 300px;
+         }
+         #pslides .pslide {
+            height: 67vh;
+         }
+         #bullets label {
+            width: 15px;
+            height: 15px;
+         }
+         .pproduct-middle{
+             width: 90%;
+             min-height: 65vh;
+         }
+         .pproduct-middle-left{
+             width: 50%;
+         }
+         .pproduct-middle-left-top{
+             width: 80%;
+             height: 70%;
+             padding-left: 5%;
+         }
+         .pproduct-middle-left-top-heading{
+             font-size: 25px;
+             padding-bottom: 15px;
+         }
+         .pproduct-middle-left-top-para{
+            font-size: 12px;
+            line-height: 20px;
+            padding-bottom: 10px;
+        }
+        .pproduct-middle-left-top-button a{
+            font-size: 10px;
+            margin-right: 10px;
+            padding: 6px 8px;
+        }
+         .pproduct-middle-left-bottom{
+            height: 30%;
+        }
+        .pproduct-middle-left-bottom-box{
+            width: 33%;
+            margin: 0 2px;
+        }
+         .pproduct-middle-right{
+            width: 50%;
+            border: 1px solid white;
+        }
+        .pproduct-spec{
+            min-height: 40vh;
+            width: 90%;
+            margin: 30px auto;
+            padding-top: 30px;
+        }
+        .pproduct-spec-left{
+            width: 50%;
+        }
+        .pproduct-spec-left-top{
+            margin-bottom: 20px;
+        }
+        .pproduct-spec-left-top-left{
+            width: 40%;
+        }
+        .pproduct-spec-left-top-left-heading{
+            font-size: 14px;
+        }
+        .pproduct-spec-left-top-left-para{
+            font-size: 11px;
+        }
+        .pproduct-spec-left-top-right{
+            width: 60%;
+            font-size: 11px;
+            line-height: 18px;
+        }
+        .pproduct-spec-left-top-right-inner{
+            width: 95%;
+        }
+        .pproduct-spec-left-bottom{
+            font-size: 12px;
+            line-height: 20px;
+        }
+        .pproduct-spec-right{
+            width: 50%;
+        }
+        .pproduct-spec-right-heading{
+            font-size: 20px;
+        }
+        .pproduct-spec-right-inner{
+            width: 80%;
+        }
+        
+        .pproduct-spec-right-box{
+            width: 30%;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            min-height: 70px;
+        }
+        .pproduct-spec-right-box-circle{
+            width: 60px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .pproduct-spec-right-box-circle i{
+            font-size: 30px;
+        }
+        .pproduct-spec-right-box-heading{
+            font-size: 10px;
+        }
+        .pproduct-bottom{
+            width: 90%;
+        }
+        .pproduct-bottom-left{
+            width: 40%;
+            height: 40vh;
+            border-right: 8px solid white;
+        }
+        .pproduct-bottom-left-heading{
+            font-size: 25px;
+            padding-bottom: 20px;
+        }
+        .pproduct-bottom-left-button a{
+            font-size: 10px;
+            margin-right: 10px;
+            padding: 6px 8px;
+        }
+        .pproduct-bottom-right{
+            width: 60%;
+        }
+        .pproduct-bottom-right iframe{
+            height: 40vh;
+        }
+    }
+    
+    @media screen and (min-width:768px) and (max-width:999px){
+        .pproduct{
+            padding: 60px 0 0 0;
+            min-height: 90vh;
+        }
+        .pproduct-heading{
+            width: 90%;
+            margin: 20px auto;
+        }
+        .pproduct-heading-main{
+            font-size: 40px;
+            letter-spacing: 2px;
+        }
+        .pproduct-heading-button{
+            font-size: 12px;
+        }
+        .pproduct-heading-button1 a{
+            margin-right: 10px;
+            padding: 8px 10px;
+        }
+        .pproduct-heading-button2 a{
+            margin-right: 10px;
+            padding: 8px 10px;
+        }
+        #pslider {
+            margin:0 auto;
+            padding: 30px 0;
+            width: 90%;
+         }
+         #pslides .inner {
+            transition: margin-left 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+            width: 400%;
+            line-height: 0;
+            height: 300px;
+         }
+         #pslides .pslide {
+            height: 67vh;
+         }
+         #bullets label {
+            width: 15px;
+            height: 15px;
+         }
+         .pproduct-middle{
+             width: 90%;
+             min-height: 50vh;
+         }
+         .pproduct-middle-left{
+             width: 50%;
+         }
+         .pproduct-middle-left-top{
+             width: 90%;
+             height: 70%;
+             padding-left: 5%;
+         }
+         .pproduct-middle-left-top-heading{
+             font-size: 18px;
+             padding-bottom: 12px;
+         }
+         .pproduct-middle-left-top-para{
+            font-size: 9px;
+            line-height: 18px;
+            padding-bottom: 7px;
+        }
+        .pproduct-middle-left-top-button a{
+            font-size: 7px;
+            margin-right: 10px;
+            padding: 6px 8px;
+        }
+         .pproduct-middle-left-bottom{
+            height: 30%;
+        }
+        .pproduct-middle-left-bottom-box{
+            width: 33%;
+            margin: 0 2px;
+        }
+         .pproduct-middle-right{
+            width: 50%;
+            border: 1px solid white;
+        }
+        .pproduct-spec{
+            min-height: 40vh;
+            width: 90%;
+            margin: 30px auto;
+            padding-top: 30px;
+        }
+        .pproduct-spec-left{
+            width: 50%;
+        }
+        .pproduct-spec-left-top{
+            margin-bottom: 20px;
+        }
+        .pproduct-spec-left-top-left{
+            width: 40%;
+        }
+        .pproduct-spec-left-top-left-heading{
+            font-size: 12px;
+        }
+        .pproduct-spec-left-top-left-para{
+            font-size: 9px;
+        }
+        .pproduct-spec-left-top-right{
+            width: 60%;
+            font-size: 9px;
+            line-height: 18px;
+        }
+        .pproduct-spec-left-top-right-inner{
+            width: 98%;
+        }
+        .pproduct-spec-left-bottom{
+            font-size: 10px;
+            line-height: 18px;
+        }
+        .pproduct-spec-right{
+            width: 50%;
+        }
+        .pproduct-spec-right-heading{
+            font-size: 18px;
+        }
+        .pproduct-spec-right-inner{
+            width: 90%;
+        }
+        
+        .pproduct-spec-right-box{
+            width: 30%;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            min-height: 70px;
+        }
+        .pproduct-spec-right-box-circle{
+            width: 60px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .pproduct-spec-right-box-circle i{
+            font-size: 30px;
+        }
+        .pproduct-spec-right-box-heading{
+            font-size: 8px;
+        }
+        .pproduct-bottom{
+            width: 90%;
+        }
+        .pproduct-bottom-left{
+            width: 40%;
+            height: 30vh;
+            border-right: 8px solid white;
+        }
+        .pproduct-bottom-left-heading{
+            font-size: 25px;
+            padding-bottom: 20px;
+        }
+        .pproduct-bottom-left-button a{
+            font-size: 10px;
+            margin-right: 10px;
+            padding: 6px 8px;
+        }
+        .pproduct-bottom-right{
+            width: 60%;
+        }
+        .pproduct-bottom-right iframe{
+            height: 30vh;
+        }
+    }
+    
+    @media screen and (max-width:767px){
+        .pproduct{
+            padding: 60px 0 0 0;
+            min-height: 90vh;
+        }
+        .pproduct-heading{
+            width: 95%;
+            margin: 20px auto;
+        }
+        .pproduct-heading-main{
+            font-size: 18px;
+            letter-spacing: 2px;
+        }
+        .pproduct-heading-button{
+            font-size: 8px;
+        }
+        .pproduct-heading-button1 a{
+            margin-right: 10px;
+            padding: 6px 8px;
+        }
+        .pproduct-heading-button2 a{
+            margin-right: 10px;
+            padding: 6px 8px;
+        }
+        #pslider {
+            margin:0 auto;
+            padding: 20px 0;
+            width: 90%;
+         }
+         #pslides .inner {
+            transition: margin-left 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+            width: 400%;
+            line-height: 0;
+            height: 300px;
+         }
+         #pslides .pslide {
+            height: 50vh;
+         }
+         #bullets label {
+            width: 10px;
+            height: 10px;
+         }
+         .pproduct-middle{
+             width: 90%;
+             min-height: 50vh;
+             flex-direction: column;
+         }
+         .pproduct-middle-left{
+             margin: 10px auto;
+             width: 95%;
+         }
+         .pproduct-middle-left-top{
+             width: 95%;
+             padding-left: 0%;
+         }
+         .pproduct-middle-left-top-heading{
+             font-size: 15px;
+             padding-bottom: 6px;
+         }
+         .pproduct-middle-left-top-para{
+            font-size: 7px;
+            line-height: 15px;
+            padding-bottom: 5px;
+        }
+        .pproduct-middle-left-top-button a{
+            font-size: 7px;
+            margin-right: 10px;
+            padding: 6px 8px;
+        }
+        
+        .pproduct-middle-left-bottom-box{
+            width: 33%;
+            height: 20vh;
+            margin: 10px 2px;
+        }
+         .pproduct-middle-right{
+            width: 95%;
+            margin: 1px auto;
+            height: 40vh;
+            border: 1px solid white;
+        }
+        .pproduct-spec{
+            min-height: 40vh;
+            width: 90%;
+            margin: 30px auto;
+            padding-top: 30px;
+            flex-direction: column;
+        }
+        .pproduct-spec-left{
+            width: 95%;
+            margin: 0 auto;
+        }
+        .pproduct-spec-left-top{
+            margin-bottom: 20px;
+        }
+        .pproduct-spec-left-top-left{
+            width: 40%;
+        }
+        .pproduct-spec-left-top-left-heading{
+            font-size: 10px;
+        }
+        .pproduct-spec-left-top-left-para{
+            font-size: 9px;
+        }
+        .pproduct-spec-left-top-right{
+            width: 60%;
+            font-size: 8px;
+            line-height: 16px;
+            padding-right: 1%;
+        }
+        .pproduct-spec-left-top-right-inner{
+            width: 98%;
+        }
+        .pproduct-spec-left-bottom{
+            font-size: 8px;
+            line-height: 16px;
+            padding-bottom: 8%;
+        }
+        .pproduct-spec-right{
+            width: 95%;
+            margin: 0 auto;
+        }
+        .pproduct-spec-right-heading{
+            font-size: 15px;
+        }
+        .pproduct-spec-right-inner{
+            width: 90%;
+        }
+        
+        .pproduct-spec-right-box{
+            width: 30%;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            min-height: 70px;
+        }
+        .pproduct-spec-right-box-circle{
+            width: 60px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .pproduct-spec-right-box-circle i{
+            font-size: 30px;
+        }
+        .pproduct-spec-right-box-heading{
+            font-size: 8px;
+        }
+        .pproduct-bottom{
+            width: 95%;
+        }
+        .pproduct-bottom-left{
+            width: 40%;
+            height: 30vh;
+            border-right: 8px solid white;
+        }
+        .pproduct-bottom-left-heading{
+            font-size: 20px;
+            padding-bottom: 10px;
+        }
+        .pproduct-bottom-left-button a{
+            font-size: 8px;
+            margin-right: 10px;
+            padding: 4px 6px;
+        }
+        .pproduct-bottom-right{
+            width: 60%;
+        }
+        .pproduct-bottom-right iframe{
+            height: 30vh;
+        }
     }
 
 /* ----------------------- services ------------------------ */
