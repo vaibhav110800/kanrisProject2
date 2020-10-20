@@ -916,6 +916,7 @@ input[name="r1"]{
          margin: 0 auto;
          min-height: 80vh;
          display: flex;
+         padding-top: 30px;
      }
 
      .pproduct-middle-left{
@@ -1654,6 +1655,208 @@ input[name="r1"]{
         }
     }
 
+    .pcontact-form{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .pcontact-form h1{
+        color: #d95322;
+        font-size: 40px;
+        padding-top: 15px;
+        font-family: 'Open Sans', sans-serif; 
+    }
+    
+    .pc-form {
+        width: 100%;
+        min-height: 60vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .pc-form-inner{
+        min-height: 50vh;
+        width: 80%;
+        margin: 0 auto;
+        font-size: 18px;
+        background-color: rgba(255, 255, 255, .8);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .pc-form form label{
+        font-family: 'Lato', sans-serif;
+        color: #d95322;
+        display: inline-block;
+        width: 250px;
+        padding-bottom: 5%;
+    }
+    
+    .pc-form form input,textarea{
+        outline: none;
+        border: none;
+          background: transparent;
+          border-bottom: 2px solid #d95322;
+        margin-left: 5px;
+        display: inline-block;
+        width: 400px;
+    }
+    .pc-form form textarea{
+        height: 60px;color:#797D7F;
+        font-family: 'Open Sans', sans-serif; 
+        font-weight: 700;
+        letter-spacing: 2px;
+        font-size: 15px;
+    }
+    
+    .pc-form form input,textarea::placeholder{
+        color:#797D7F;
+        font-family: 'Open Sans', sans-serif; 
+        font-weight: 700;
+        letter-spacing: 2px;
+        font-size: 15px;
+    }
+    
+    .pc-form-inner form button{
+        cursor: pointer;
+        font-size: 16px;
+        padding: 8px 18px;
+        margin: 30px 0;
+        border: 2px solid #d95322;
+        border-radius: 8px;
+        color:white;
+        background-color: #d95322;
+        font-family: 'Open Sans', sans-serif; 
+        transition: .2s ease-in-out;
+    }
+    .pc-form-inner form button:hover{
+        background-color:#8a8889;
+        border: 2px solid #8a8889;
+    }
+    
+    .pc1 h1{
+        text-align: left;
+    }
+    
+    .pc1-form{
+        background: url(../images/6.contactUs/1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+    }
+    
+    @media screen and (min-width:930px) and (max-width:1189px){
+    
+        .pcontact-form{
+            width: 90%;
+        }
+        .pcontact-form h1{
+            font-size: 40px;
+        }
+        
+        .pc-form {
+            width: 100%;
+            /* min-height: 90vh; */
+        }
+        
+        .pc-form-inner{
+            /* min-height: 80vh; */
+            width: 80%;
+            font-size: 22px;
+        }
+        .pc-form form label{
+            width: 250px;
+        }
+        
+        .pc-form form input,textarea{
+            width: 400px;
+        }
+        .pc-form form textarea{
+            height: 60px;
+        }
+        .pc-form form input,textarea::placeholder{
+            font-size: 15px;
+        }
+    }
+    
+    @media screen and (min-width:550px) and (max-width:929px){
+        
+        .pcontact-form{
+            width: 90%;
+        }
+        .pcontact-form h1{
+            font-size: 40px;
+        }
+        
+        .pc-form {
+            width: 100%;
+            /* min-height: 80vh; */
+        }
+        
+        .pc-form-inner{
+            /* min-height: 63vh; */
+            width: 90%;
+            font-size: 15px;
+        }
+        .pc-form form label{
+            width: 150px;
+        }
+        
+        .c-form form input,textarea{
+            width: 300px;
+        }
+        .pc-form form textarea{
+            height: 60px;
+        }
+        .pc-form-inner form button{
+            font-size: 14px;
+            padding: 6px 15px;
+        }
+        .pc-form form input,textarea::placeholder{
+            font-size: 12px;
+        }
+    }
+    
+    @media screen and (max-width:549px){
+        
+        .pcontact-form{
+            width: 90%;
+        }
+        .pcontact-form h1{
+            font-size: 25px;
+        }
+        
+        .pc-form {
+            width: 100%;
+            min-height: 40vh;
+        }
+        
+        .pc-form-inner{
+            min-height: 30vh;
+            width: 90%;
+            font-size: 8px;
+        }
+        .pc-form form label{
+            width: 90px;
+        }
+        
+        .pc-form form input,textarea{
+            width: 150px;
+        }
+        .pc-form form textarea{
+            height: 40px;
+        }
+        .pc-form form input,textarea::placeholder{
+            font-size: 9px;
+        }
+        .pc-form-inner form button{
+            font-size: 10px;
+            padding: 2px 11px;
+        }
+    }
+    
+    
+
 /* ----------------------- services ------------------------ */
 
 .services{
@@ -2114,7 +2317,7 @@ input[name="r1"]{
     cursor: pointer;
     font-size: 16px;
     padding: 8px 18px;
-    margin-top: 30px;
+    margin: 30px 0;
     border: 2px solid #d95322;
     border-radius: 8px;
     color:white;
@@ -2173,11 +2376,11 @@ input[name="r1"]{
     
     .c-form {
         width: 100%;
-        min-height: 80vh;
+        min-height: 90vh;
     }
     
     .c-form-inner{
-        min-height: 63vh;
+        min-height: 80vh;
         width: 80%;
         font-size: 22px;
     }
