@@ -2785,6 +2785,7 @@ input[name="r1"]{
     font-size: 13px;
     font-family: 'Montserrat', sans-serif;
     line-height: 20px;
+    letter-spacing: 1px;
 }
 
 .me-section3{
@@ -2815,7 +2816,7 @@ input[name="r1"]{
 .me-sec3-box-left-para{
     color: whitesmoke;
     font-size: 13px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     font-family: 'Montserrat', sans-serif;
     line-height: 20px;
 }
@@ -2877,11 +2878,12 @@ input[name="r1"]{
     font-size: 13px;
     font-family: 'Montserrat', sans-serif;
     line-height: 20px;
+    letter-spacing: 1px;
 }
 .me-sec4-box-right{
     width: 65%;
     height: inherit;
-    background: url(../images/3.projects/2.malgao_ext/3.jpg);
+    background: url(../images/3.projects/2.malgao_ext/4.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -3140,11 +3142,11 @@ input[name="r1"]{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    box-shadow: 0px 0px 10px 2px rgba(0,0,0,1);
+    box-shadow: 5px 3px 10px 2px rgb(0 0 0 / 34%);
     transition: .3s ease-in-out;
 }
 .me-sec5-box-box:hover{
-    box-shadow: 0px 0px 19px 2px rgba(0,0,0,1);
+    box-shadow: 0px 0px 19px 2px rgb(0 0 0 / 58%);
     transform: scale(1.02);
 }
 .me-sec5-box-box-inner{
@@ -3210,4 +3212,125 @@ input[name="r1"]{
     border-top: 2px solid #c0b58d;
     color: whitesmoke;
     font-size: 17px;
+}
+
+@media screen and (min-width:950px) and (max-width:1149px){
+    .me-sec5-box{
+        min-height: 50vh;
+    }
+    .me-sec5-box-box{
+        width: 28%;
+        height: 40vh;
+    }
+    .me-sec5-box-box-top-heading{
+        font-size: 40px;
+    }
+    .me-sec5-box-box-inner:hover .me-sec5-box-box-top-heading{
+        font-size: 45px;
+    }
+    .me-sec5-box-box-top-icon{
+        font-size: 70px;
+    }
+    .me-sec5-box-box-inner:hover .me-sec5-box-box-top-icon{
+        font-size: 80px;
+    }
+    .me-sec5-box-box-top-price{
+        font-size: 15px;
+    }
+    .me-sec5-box-box-bottom{
+        font-size: 15px;
+    }
+    .me-sec5-box-box-inner:hover .me-sec5-box-box-bottom{
+        font-size: 17px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:949px){
+    .me-sec5-box{
+        min-height: 45vh;
+    }
+    .me-sec5-box-box{
+        width: 30%;
+        height: 33vh;
+    }
+    .me-sec5-box-box-top-heading{
+        font-size: 30px;
+    }
+    .me-sec5-box-box-inner:hover .me-sec5-box-box-top-heading{
+        font-size: 35px;
+    }
+    .me-sec5-box-box-top-icon{
+        font-size: 70px;
+    }
+    .me-sec5-box-box-inner:hover .me-sec5-box-box-top-icon{
+        font-size: 80px;
+    }
+    .me-sec5-box-box-top-price{
+        font-size: 15px;
+    }
+    .me-sec5-box-box-bottom{
+        font-size: 10px;
+    }
+    .me-sec5-box-box-inner:hover .me-sec5-box-box-bottom{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:767px){
+    .me-sec5-box{
+        min-height: 40vh;
+    }
+    .me-sec5-box-box{
+        width: 30%;
+        height: 30vh;
+    }
+    .me-sec5-box-box-top-heading{
+        font-size: 13px;
+    }
+    .me-sec5-box-box-inner:hover .me-sec5-box-box-top-heading{
+        font-size: 15px;
+    }
+    .me-sec5-box-box-top-icon{
+        font-size: 50px;
+    }
+    .me-sec5-box-box-inner:hover .me-sec5-box-box-top-icon{
+        font-size: 60px;
+    }
+    .me-sec5-box-box-top-price{
+        font-size: 7px;
+    }
+    .me-sec5-box-box-bottom{
+        font-size: 6px;
+    }
+    .me-sec5-box-box-inner:hover .me-sec5-box-box-bottom{
+        font-size: 7px;
+    }
+}
+
+
+.me-section6{
+    background-color: #303030;
+    /* box-shadow: 0px 0px 5px 5px rgba(68,48,48,1); */
+    margin-top: 15px;
+}
+.me-sec6-box{
+    width: 80%;
+    margin: 0 auto;
+    min-height: 70vh;
+    background-color: #fff;
+    box-shadow: 0px 0px 6px 2px rgba(0,0,0,0.75);
+}
+
+.me-section7{
+    background-color: #303030;
+    margin: 15px 0;
+}
+.me-sec7-box{
+    width: 80%;
+    margin: 0 auto;
+    min-height: 70vh;
+    background:linear-gradient(0deg, rgba(48,48,48, .7), rgba(48,48,48,0.7)), url(../images/3.projects/2.malgao_ext/6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    box-shadow: 0px 0px 6px 2px rgba(0,0,0,0.75);
 }
