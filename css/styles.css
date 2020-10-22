@@ -2547,7 +2547,9 @@ input[name="r1"]{
     }
 
 /* ------------------------- malgao ext. ------------------------ */
-
+.me-body{
+    background-color: #303030;
+}
 .me-section1{
     background:linear-gradient(to bottom, rgba(48,48,48,0.6) 0%, rgba(48,48,48,1) 50%), url(../images/3.projects/2.malgao_ext/1.jpg);
     background-size: cover;
@@ -2743,6 +2745,7 @@ input[name="r1"]{
 .me-section2{
     background-color: #303030;
     box-shadow: 0px 0px 5px 5px rgba(48,48,48,1);
+    margin-top: 15px;
 }
 .me-sec2-box{
     width: 80%;
@@ -2787,6 +2790,7 @@ input[name="r1"]{
 .me-section3{
     background-color: #303030;
     box-shadow: 0px 0px 5px 5px rgba(48,48,48,1);
+    margin-top: 15px;
 }
 .me-sec3-box{
     width: 80%;
@@ -2840,6 +2844,7 @@ input[name="r1"]{
 .me-section4{
     background-color: #303030;
     box-shadow: 0px 0px 5px 5px rgba(48,48,48,1);
+    margin-top: 15px;
 }
 .me-sec4-box{
     width: 80%;
@@ -3107,4 +3112,52 @@ input[name="r1"]{
     .me-sec4-box-right{
         width: 55%;
     }
+}
+
+.me-section5{
+    background-color: #303030;
+    color: whitesmoke;
+    margin-top: 15px;
+    /* box-shadow: 0px 0px 3px 2px rgba(48,48,48,1); */
+}
+.me-sec5-box{
+    width: 80%;
+    margin: 0 auto;
+    min-height: 70vh;
+    background-color: #303030;
+    box-shadow: 0px 0px 6px 2px rgba(0,0,0,0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.me-sec5-box-box{
+    width: 300px;
+    height: 50vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 19px 2px rgba(0,0,0,1);
+}
+.me-sec5-box-box-inner{
+    width: 90%;
+    height: 90%;
+    border: 2px solid #c0b58d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.me-sec5-box-box-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.me-sec5-box-box-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
