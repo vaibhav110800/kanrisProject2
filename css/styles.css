@@ -3281,10 +3281,12 @@ input[name="r1"]{
 @media screen and (max-width:767px){
     .me-sec5-box{
         min-height: 40vh;
+        flex-direction: column;
     }
     .me-sec5-box-box{
-        width: 30%;
-        height: 30vh;
+        width: 70%;
+        height: 20vh;
+        margin: 8px 0px;
     }
     .me-sec5-box-box-top-heading{
         font-size: 13px;
