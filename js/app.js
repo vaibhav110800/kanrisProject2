@@ -29,4 +29,45 @@ function search_products() {
             x[i].style.display = "flex";
         }
     }
-} 
+}
+
+
+document.getElementById('cb1').onclick = function change() {
+    document.getElementById('pitbox1').style = "display: flex";
+    document.getElementById('pitbox2').style = "display: none";
+    document.getElementById('pitbox3').style = "display: none";
+    document.getElementById('pitbox4').style = "display: none";
+    document.getElementById('pitbox5').style = "display: none";
+}
+
+document.getElementById('cb2').onclick = function change() {
+    document.getElementById('pitbox1').style = "display: none";
+    document.getElementById('pitbox2').style = "display: flex";
+    document.getElementById('pitbox3').style = "display: none";
+    document.getElementById('pitbox4').style = "display: none";
+    document.getElementById('pitbox5').style = "display: none";
+}
+
+document.getElementById('cb3').onclick = function change() {
+    document.getElementById('pitbox1').style = "display: none";
+    document.getElementById('pitbox2').style = "display: none";
+    document.getElementById('pitbox3').style = "display: flex";
+    document.getElementById('pitbox4').style = "display: none";
+    document.getElementById('pitbox5').style = "display: none";
+}
+
+document.getElementById('cb4').onclick = function change() {
+    document.getElementById('pitbox1').style = "display: none";
+    document.getElementById('pitbox2').style = "display: none";
+    document.getElementById('pitbox3').style = "display: none";
+    document.getElementById('pitbox4').style = "display: flex";
+    document.getElementById('pitbox5').style = "display: none";
+}
+
+document.getElementById('cb5').onclick = function change() {
+    document.getElementById('pitbox1').style = "display: none";
+    document.getElementById('pitbox2').style = "display: none";
+    document.getElementById('pitbox3').style = "display: none";
+    document.getElementById('pitbox4').style = "display: none";
+    document.getElementById('pitbox5').style = "display: flex";
+}
