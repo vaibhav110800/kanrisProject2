@@ -3695,7 +3695,7 @@ input[name="r1"]{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
-    min-height: 220vh;
+    min-height: 200vh;
 }
 .pit-sec{
     width: 90%;
@@ -3916,6 +3916,76 @@ input[name="r1"]{
 .pit-sec-bottom{
     width: 90%;
     margin: 20px auto;
-    min-height:80vh;
-    background-color: #606064;
+    min-height:60vh;
+    
+    display: flex;
+}
+.pit-sec-bottom-left{
+    width: 40%;
+    background:linear-gradient(to bottom, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.7) 80%), url(../images/3.projects/3.pitampura/z3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 5%;
+}
+.pit-sec-bottom-left-inner{
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.pit-sec-bottom-left-form-input{
+    margin-bottom: 12%;
+}
+.pit-sec-bottom-left-form-input input{
+    background-color: transparent;
+    width: 300px;
+    border: none;
+    border-bottom: 2px solid #2980B9;
+    color: #2980B9;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 3%;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+.pit-sec-bottom-left-form-input input::placeholder{
+    color:#797D7F;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+.pit-sec-bottom-left-form-button{
+    width: 90px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2980B9;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+.pit-sec-bottom-left-form-button a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+.pit-sec-bottom-left-form-button:hover a{
+    color:#E5E7E9;
+}
+.pit-sec-bottom-right{
+    width: 58%;
+    margin-left: 2%;
+    min-height: 50vh;
+}
+.pit-sec-copy{
+    color: #D4AC0D;
+    font-size: 12px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
 }

@@ -182,7 +182,20 @@
 
             <div class="pit-sec-bottom">
 
+                <div class="pit-sec-bottom-left">
+                    <div class="pit-sec-bottom-left-inner">
+                        <form action="" class="pit-sec-bottom-left-form">
+                            <div class="pit-sec-bottom-left-form-input"><input type="text" placeholder="NAME"></div>
+                            <div class="pit-sec-bottom-left-form-input"><input type="text" placeholder="E-MAIL"></div>
+                            <div class="pit-sec-bottom-left-form-input"><input type="text" placeholder="BUDGET"></div>
+                            <div class="pit-sec-bottom-left-form-button"><a href="">SUBMIT</a></div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="pit-sec-bottom-right" id="map1"></div>
             </div>
+
             <div class="pit-sec-copy">
                 © 2020 VASTU. All Rights Reserved.
             </div>
@@ -194,6 +207,8 @@
 
 
     <!------------------------- script ---------------------------->
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQrwBmds0yPtfIFAMpu1LuyBrLxX8-_5s&callback=initMapforcontact"></script>
     <script src="../js/app.js"></script>
     <script type="text/javascript">
 
@@ -214,6 +229,26 @@
 
             else {
                 $('nav').removeClass('black');
+            }
+        });
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            google.maps.event.addDomListener(window, 'load', init);
+
+            function init() {
+                var mapOptions = {
+                    zoom: 11,
+                    center: new google.maps.LatLng(19.0760, 72.8777), styles: [{ "featureType": "water", "elementType": "all", "stylers": [{ "hue": "#7fc8ed" }, { "saturation": 55 }, { "lightness": -6 }, { "visibility": "on" }] }, { "featureType": "water", "elementType": "labels", "stylers": [{ "hue": "#7fc8ed" }, { "saturation": 55 }, { "lightness": -6 }, { "visibility": "off" }] }, { "featureType": "poi.park", "elementType": "geometry", "stylers": [{ "hue": "#83cead" }, { "saturation": 1 }, { "lightness": -15 }, { "visibility": "on" }] }, { "featureType": "landscape", "elementType": "geometry", "stylers": [{ "hue": "#f3f4f4" }, { "saturation": -84 }, { "lightness": 59 }, { "visibility": "on" }] }, { "featureType": "landscape", "elementType": "labels", "stylers": [{ "hue": "#ffffff" }, { "saturation": -100 }, { "lightness": 100 }, { "visibility": "off" }] }, { "featureType": "road", "elementType": "geometry", "stylers": [{ "hue": "#ffffff" }, { "saturation": -100 }, { "lightness": 100 }, { "visibility": "on" }] }, { "featureType": "road", "elementType": "labels", "stylers": [{ "hue": "#bbbbbb" }, { "saturation": -100 }, { "lightness": 26 }, { "visibility": "on" }] }, { "featureType": "road.arterial", "elementType": "geometry", "stylers": [{ "hue": "#ffcc00" }, { "saturation": 100 }, { "lightness": -35 }, { "visibility": "simplified" }] }, { "featureType": "road.highway", "elementType": "geometry", "stylers": [{ "hue": "#ffcc00" }, { "saturation": 100 }, { "lightness": -22 }, { "visibility": "on" }] }, { "featureType": "poi.school", "elementType": "all", "stylers": [{ "hue": "#d7e4e4" }, { "saturation": -60 }, { "lightness": 23 }, { "visibility": "on" }] }]
+                };
+                var mapElement = document.getElementById('map1');
+                var map = new google.maps.Map(mapElement, mapOptions);
+                var marker = new google.maps.Marker({
+                    position: new google.maps.LatLng(19.0760, 72.8777),
+                    map: map,
+                    title: 'Snazzy!'
+                });
             }
         });
     </script>
