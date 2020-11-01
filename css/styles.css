@@ -3695,7 +3695,7 @@ input[name="r1"]{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
-    min-height: 200vh;
+    min-height: 190vh;
 }
 .pit-sec{
     width: 90%;
@@ -3985,7 +3985,7 @@ input[name="r1"]{
 .pit-sec-copy{
     color: #D4AC0D;
     font-size: 12px;
-    padding-bottom: 15px;
+    padding-bottom: 18px;
     text-align: center;
     font-family: 'Poppins', sans-serif;
 }
