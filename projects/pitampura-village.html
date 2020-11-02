@@ -8,6 +8,7 @@
     <link rel="icon" type="image/gif/png" href="../images/1.header/vastu.svg">
     <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
     <script src="https://kit.fontawesome.com/5f8269d684.js" crossorigin="anonymous"></script>
+    <script src="../js/app.js"></script>
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 
@@ -87,6 +88,7 @@
                     </div>
 
                     <div class="pit-sec-right-bottom">
+
                         <div class="pit-sec-right-bottom-cursor">
                             <div class="pit-sec-right-bottom-cursor-box" style="background-color: #2980b9;" id="cb1">
                             </div>
@@ -209,7 +211,7 @@
     <!------------------------- script ---------------------------->
     <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQrwBmds0yPtfIFAMpu1LuyBrLxX8-_5s&callback=initMapforcontact"></script>
-    <script src="../js/app.js"></script>
+
     <script type="text/javascript">
 
         // Menu-toggle button
@@ -218,6 +220,76 @@
             $(".menu-icon").on("click", function () {
                 $("nav ul").toggleClass("showing");
             });
+
+            document.getElementById('cb1').onclick = function change() {
+                document.getElementById('cb1').style = "background-color: #2980b9";
+                document.getElementById('cb2').style = "background-color: transparent";
+                document.getElementById('cb3').style = "background-color: transparent";
+                document.getElementById('cb4').style = "background-color: transparent";
+                document.getElementById('cb5').style = "background-color: transparent";
+
+                document.getElementById('pitbox1').style = "display: flex";
+                document.getElementById('pitbox2').style = "display: none";
+                document.getElementById('pitbox3').style = "display: none";
+                document.getElementById('pitbox4').style = "display: none";
+                document.getElementById('pitbox5').style = "display: none";
+            }
+
+            document.getElementById('cb2').onclick = function change() {
+                document.getElementById('cb1').style = "background-color: transparent";
+                document.getElementById('cb2').style = "background-color: #2980b9";
+                document.getElementById('cb3').style = "background-color: transparent";
+                document.getElementById('cb4').style = "background-color: transparent";
+                document.getElementById('cb5').style = "background-color: transparent";
+
+                document.getElementById('pitbox1').style = "display: none";
+                document.getElementById('pitbox2').style = "display: flex";
+                document.getElementById('pitbox3').style = "display: none";
+                document.getElementById('pitbox4').style = "display: none";
+                document.getElementById('pitbox5').style = "display: none";
+            }
+
+            document.getElementById('cb3').onclick = function change() {
+                document.getElementById('cb1').style = "background-color: transparent";
+                document.getElementById('cb2').style = "background-color: transparent";
+                document.getElementById('cb3').style = "background-color: #2980b9";
+                document.getElementById('cb4').style = "background-color: transparent";
+                document.getElementById('cb5').style = "background-color: transparent";
+
+                document.getElementById('pitbox1').style = "display: none";
+                document.getElementById('pitbox2').style = "display: none";
+                document.getElementById('pitbox3').style = "display: flex";
+                document.getElementById('pitbox4').style = "display: none";
+                document.getElementById('pitbox5').style = "display: none";
+            }
+
+            document.getElementById('cb4').onclick = function change() {
+                document.getElementById('cb1').style = "background-color: transparent";
+                document.getElementById('cb2').style = "background-color: transparent";
+                document.getElementById('cb3').style = "background-color: transparent";
+                document.getElementById('cb4').style = "background-color: #2980b9";
+                document.getElementById('cb5').style = "background-color: transparent";
+
+                document.getElementById('pitbox1').style = "display: none";
+                document.getElementById('pitbox2').style = "display: none";
+                document.getElementById('pitbox3').style = "display: none";
+                document.getElementById('pitbox4').style = "display: flex";
+                document.getElementById('pitbox5').style = "display: none";
+            }
+
+            document.getElementById('cb5').onclick = function change() {
+                document.getElementById('cb1').style = "background-color: transparent";
+                document.getElementById('cb2').style = "background-color: transparent";
+                document.getElementById('cb3').style = "background-color: transparent";
+                document.getElementById('cb4').style = "background-color: transparent";
+                document.getElementById('cb5').style = "background-color: #2980b9";
+
+                document.getElementById('pitbox1').style = "display: none";
+                document.getElementById('pitbox2').style = "display: none";
+                document.getElementById('pitbox3').style = "display: none";
+                document.getElementById('pitbox4').style = "display: none";
+                document.getElementById('pitbox5').style = "display: flex";
+            }
         });
 
         // Scrolling Effect
