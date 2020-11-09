@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOMBIVLI GARDEN</title>
+    <link rel="icon" type="image/gif/png" href="../images/1.header/vastu.svg">
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="https://kit.fontawesome.com/5f8269d684.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+
+    <div class="dom-sec1">
+        <div class="dom-sec1-box1"></div>
+        <div class="dom-sec1-box-head">DOMBIVLI GARDEN</div>
+        <div class="dom-sec1-box2">
+            <div class="dom-sec1-box2-inner">
+                <div class="dom-sec1-box2-inner1"></div>
+                <div class="dom-sec1-box2-inner2">
+                    <div class="dom-sec1-box2-inner2i">PRIVATE <br>SALE</div>
+                </div>
+                <div class="dom-sec1-box2-inner3"></div>
+            </div>
+        </div>
+        <div class="dom-sec1-box3"></div>
+        <div class="dom-sec1-box4">
+            <div class="dom-sec1-box4-top">MAGNIFICIENT FLATS</div>
+            <div class="dom-sec1-box4-bottom"><a href="">BROCHURE</a></div>
+        </div>
+    </div>
+
+
+    <!-- <div class="cr">
+        © 2020 VASTU. All Rights Reserved.
+    </div> -->
+
+
+    <!------------------------- script ---------------------------->
+    <script src="../js/app.js"></script>
+    <script type="text/javascript">
+
+        // Menu-toggle button
+
+        $(document).ready(function () {
+            $(".menu-icon").on("click", function () {
+                $("nav ul").toggleClass("showing");
+            });
+        });
+
+        // Scrolling Effect
+
+        $(window).on("scroll", function () {
+            if ($(window).scrollTop()) {
+                $('nav').addClass('black');
+            }
+
+            else {
+                $('nav').removeClass('black');
+            }
+        });
+    </script>
+</body>
+
+</html>
