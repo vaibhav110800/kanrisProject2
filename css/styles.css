@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Merienda+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 /* 
 font-family: 'Lato', sans-serif;
 font-family: 'Josefin Sans', sans-serif;
@@ -14,6 +15,8 @@ font-family: 'Montserrat', sans-serif;
 font-family: 'Poppins', sans-serif;
 
 font-family: 'Anton', sans-serif;
+
+font-family: 'Pacifico', cursive;
 */
 
 html, body {
@@ -4608,8 +4611,7 @@ input[name="r1"]{
     position: relative;
 }
 
-.dom-sec1-box1{
-    position: absolute;
+.dom-sec1-box-1{
     height: 70vh;
     width: 100%;
     background: url(../images/3.projects/4.dom/1.1.jpg);
@@ -4619,12 +4621,27 @@ input[name="r1"]{
 }
 .dom-sec1-box-head{
     position: absolute;
+    width: 100%;
     top: 20%;
-    left: 27%;
-    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:whitesmoke;
     font-family: 'Poppins', sans-serif;
     letter-spacing: 2px;
     font-size: 75px;
+}
+.dom-sec1-box-main{
+    position: absolute;
+    height: 300px;
+    width: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0%;
+    left: 0;
+    right: 0;
 }
 .dom-sec1-box2{
     z-index: 1;
@@ -4634,22 +4651,22 @@ input[name="r1"]{
     display: flex;
     font-family: 'Lato', sans-serif;
     font-size: 50px;
-    color: whitesmoke;
-    left: 35%;
-    bottom: 20%;
+    color:whitesmoke;
+    left: -5%;
+    top: -8%;
     letter-spacing: 2px;
 }
 .dom-sec1-box2-inner1{
     height: 45px;
     width: 240px;
-    border-right: 4px solid whitesmoke ;
-    border-top: 4px solid whitesmoke ;
-    border-left: 4px solid whitesmoke ;
+    border-right: 4px solid  whitesmoke ;
+    border-top: 4px solid  whitesmoke ;
+    border-left: 4px solid  whitesmoke ;
 }
 .dom-sec1-box2-inner2{
     height: 110px;
     width: 240px;
-    border-left: 4px solid whitesmoke ;
+    border-left: 4px solid  whitesmoke ;
 }
 .dom-sec1-box2-inner2i{
     transform: translateX(25%);
@@ -4657,9 +4674,9 @@ input[name="r1"]{
 .dom-sec1-box2-inner3{
     height: 45px;
     width: 240px;
-    border-right: 4px solid whitesmoke ;
-    border-bottom: 4px solid whitesmoke ;
-    border-left: 4px solid whitesmoke ;
+    border-right: 4px solid  whitesmoke ;
+    border-bottom: 4px solid  whitesmoke ;
+    border-left: 4px solid  whitesmoke ;
 }
 .dom-sec1-box3{
     position: absolute;
@@ -4670,7 +4687,7 @@ input[name="r1"]{
     background-repeat: no-repeat;
     background-position: 10% 40%;
     bottom: 0;
-    left: 50%;
+    left: 30%;
 }
 
 .dom-sec1-box4{
@@ -4680,16 +4697,16 @@ input[name="r1"]{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 10% 40%;
-    bottom: 25%;
-    right: 15%;
+    bottom: 50%;
+    right: -15%;
 }
 .dom-sec1-box4-top{
     height: 50%;
     width: inherit;
-    background: whitesmoke;
+    background: #922B21;
     font-family: 'Open Sans', sans-serif; 
     font-size: 20px;
-    color: black;
+    color: white;
     padding: 10px;
     display: flex;
     justify-content: center;
@@ -4698,8 +4715,8 @@ input[name="r1"]{
 .dom-sec1-box4-bottom{
     height: 50%;
     width: inherit;
-    background-color: black;
-    
+    background-color: #2874A6;
+    color: white;
     padding: 3px 5px;
 }
 .dom-sec1-box4-bottom a{
@@ -4712,4 +4729,296 @@ input[name="r1"]{
 }
 .dom-sec1-box4-bottom a:hover{
     color:grey;
+}
+.dom-sec2{
+    width: 100%;
+    margin-top: 40px;
+}
+.dom-sec2-head{
+    width: 100%;
+}
+.dom-sec2-head-inner{
+    width: 100%;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif; 
+    text-align: center;
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    color: #922B21;
+}
+
+.dom-sec2-para{
+    width: 100%;
+}
+.dom-sec2-para-inner{
+    width: 45%;
+    margin: 0 auto;
+    font-size: 14px;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    color: #2874A6;
+}
+
+.dom-sec3{
+    width: 900px;
+    height: 500px;
+    margin: 30px auto;
+}
+.dom-sec3-inner{
+    width: 900px;
+    height: 500px;
+    display: flex;
+}
+.dom-sec3-box1{
+    height: 500px;
+    width: 450px;
+    background: url(../images/3.projects/4.dom/2.1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    position: relative;
+}
+.dom-sec3-box2{
+    height: 500px;
+    width: 450px;
+}
+.dom-sec3-box2-top{
+    height: 250px;
+    width: 450px;
+    background: url(../images/3.projects/4.dom/2.2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    position: relative;
+}
+.dom-sec3-box2-bottom{
+    height: 250px;
+    width: 450px;
+    display: flex;
+}
+.dom-sec3-box2-bottom-left{
+    height: 250px;
+    width: 225px;
+    background: url(../images/3.projects/4.dom/2.3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    position: relative;
+}
+.dom-sec3-box2-bottom-right{
+    height: 250px;
+    width: 225px;
+    background: url(../images/3.projects/4.dom/2.4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    position: relative;
+}
+.dom-sec3-box1-text{
+    font-family: 'Poppins', sans-serif; 
+    color: white;
+    letter-spacing: 2px;
+    font-size: 18px;
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+}
+.dom-sec3-button{
+    width: 100%;
+    text-align: center;
+    margin:25px 0 ;
+}
+.dom-sec3-button a{
+    border: 3px solid #2874A6;
+    color: #2874A6;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    padding: 8px 15px;
+    border-radius: 8px;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    font-weight: 900;
+    transition: .2s ease-in-out;
+}
+.dom-sec3-button a:hover{
+    border: 3px solid #922B21;
+    color: #922B21;
+}
+
+.dom-sec4{
+    width: 1200px;
+    height: 500px;
+    padding-top: 50px;
+    margin: 0px auto;
+    display: flex;
+}
+
+.dom-sec4-left{
+    width: 600px;
+    height: 500px;
+    background-color: #E5E7E9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.dom-sec4-left-inner{
+    width: 80%;
+    margin: 0 auto;
+}
+.dom-sec4-left-head{
+    font-family: 'Open Sans', sans-serif;
+    color: #922B21;
+    font-size: 26px;
+    letter-spacing: 2px;
+    font-weight: 800;
+    padding: 8px 0;
+}
+.dom-sec4-left-para{
+    font-family: 'Poppins', sans-serif;
+    color: #2874A6;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    padding: 8px 0;
+}
+.dom-sec4-right{
+    width: 600px;
+    height: 500px;
+    background: url(../images/3.projects/4.dom/3.1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.dom-sec5{
+    width: 1200px;
+    height: 280px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2874A6;
+}
+.dom-sec5-box1{
+    height: 230px;
+    width: 220px;
+    margin-left: 10px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+.dom-sec5-head{
+    font-family: 'Open Sans', sans-serif;
+    color: #D0D3D4;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 800;
+    padding: 8px 0;
+}
+.dom-sec5-para{
+    font-family: 'Poppins', sans-serif;
+    color: whitesmoke;
+    font-size: 12px;
+    /* line-height: 20px; */
+    letter-spacing: 1px;
+    padding: 8px 0;
+}
+.dom-sec5-box2-top{
+    background: url(../images/3.projects/4.dom/gym.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 180px;
+    width: 220px;
+}
+
+.dom-sec5-box2-bottom{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: #E5E7E9;
+    color: #2874A6;
+    height: 50px;
+    width: 220px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.dom-sec5-box3-top{
+    background: url(../images/3.projects/4.dom/swimming.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 180px;
+    width: 220px;
+}
+
+.dom-sec5-box3-bottom{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: #E5E7E9;
+    color: #2874A6;
+    height: 50px;
+    width: 220px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.dom-sec5-box4-top{
+    background: url(../images/3.projects/4.dom/eco-park.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 180px;
+    width: 220px;
+}
+
+.dom-sec5-box4-bottom{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: #E5E7E9;
+    color: #2874A6;
+    height: 50px;
+    width: 220px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.dom-sec5-box5-top{
+    background: url(../images/3.projects/4.dom/games.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 180px;
+    width: 220px;
+}
+
+.dom-sec5-box5-bottom{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: #E5E7E9;
+    color: #2874A6;
+    height: 50px;
+    width: 220px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.dom-bottom{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: #2874A6;
+    text-align: center;
+    padding-bottom: 15px;
 }
