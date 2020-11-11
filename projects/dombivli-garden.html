@@ -9,6 +9,7 @@
     <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
     <script src="https://kit.fontawesome.com/5f8269d684.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/swiper.min.css">
 </head>
 
 <body>
@@ -96,30 +97,95 @@
     </div>
 
     <div class="dom-sec5">
-        <div class="dom-sec5-box1">
-            <div class="dom-sec5-inner">
-                <div class="dom-sec5-head">FEATURES</div>
-                <div class="dom-sec5-para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum nisi
-                    totam ab ea ut eaque nemo reprehenderit animi suscipit, cupiditate quisquam consectetur odit
-                    officiis, enim architecto, aut et optio. Obcaecati? </div>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <div class="card">
+                        <div class="sliderImage1"></div>
+                        <div class="content">
+                            <p> <span>GYMNASIUM</span> <br> 4 min</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="card">
+                        <div class="sliderImage2"></div>
+                        <div class="content">
+                            <p> <span>SWIMMING POOL</span> <br> 2 min</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="card">
+                        <div class="sliderImage3"></div>
+                        <div class="content">
+                            <p> <span>ECO PARK</span> <br> 5 min</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="card">
+                        <div class="sliderImage4"></div>
+                        <div class="content">
+                            <p><span>OUTDOOR GAMES </span> <br> 7 min</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="card">
+                        <div class="sliderImage5"></div>
+                        <div class="content">
+                            <p><span>COMMUNITY HALL </span> <br> 1 min</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="dom-sec5-box1">
-            <div class="dom-sec5-box2-top"></div>
-            <div class="dom-sec5-box2-bottom">GYMNASIUM <br> 4 min</div>
+    </div>
+
+    <div class="dom-sec6">
+
+        <div class="dom-sec6-box1">
+            <div class="dom-sec6-box1-left">
+                <div class="dom-sec6-box1-left-inner">
+                    <div class="dom-sec6-box1-left-h">Welcome Home</div>
+                    <div class="dom-sec6-box1-left-p">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        Aspernatur, commodi explicabo ducimus beatae iusto enim eaque alias dolorem ex delectus earum
+                        cupiditate quasi aliquam reprehenderit nisi aperiam provident incidunt ab!</div>
+                </div>
+            </div>
+            <div class="dom-sec6-box1-right"></div>
         </div>
-        <div class="dom-sec5-box1">
-            <div class="dom-sec5-box3-top"></div>
-            <div class="dom-sec5-box3-bottom">SWIMMING POOL <br> 2 min</div>
+
+        <div class="dom-sec6-box2">
+            <div class="dom-sec6-box2-left"></div>
+            <div class="dom-sec6-box2-right">
+                <div class="dom-sec6-box2-right-inner">
+                    <div class="dom-sec6-box2-right-h">Best Living Experience</div>
+                    <div class="dom-sec6-box2-right-p">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        Aspernatur, commodi explicabo ducimus beatae iusto enim eaque alias dolorem ex delectus earum
+                        cupiditate quasi aliquam reprehenderit nisi aperiam provident incidunt ab!</div>
+                </div>
+            </div>
         </div>
-        <div class="dom-sec5-box1">
-            <div class="dom-sec5-box4-top"></div>
-            <div class="dom-sec5-box4-bottom">ECO PARK <br> 5 min</div>
+
+        <div class="dom-sec6-box3">
+            <div class="dom-sec6-box3-left">
+                <div class="dom-sec6-box3-left-inner">
+                    <div class="dom-sec6-box3-left-h">Best Offers </div>
+                    <div class="dom-sec6-box3-left-p">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        Aspernatur, commodi explicabo ducimus beatae iusto enim eaque alias dolorem ex delectus earum
+                        cupiditate quasi aliquam reprehenderit nisi aperiam provident incidunt ab!</div>
+                </div>
+            </div>
+            <div class="dom-sec6-box3-right"></div>
         </div>
-        <div class="dom-sec5-box1">
-            <div class="dom-sec5-box5-top"></div>
-            <div class="dom-sec5-box5-bottom">OUTDOOR GAMES <br> 7 min</div>
-        </div>
+
     </div>
 
     <div class="pit-sec-bottom">
@@ -149,6 +215,25 @@
     <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQrwBmds0yPtfIFAMpu1LuyBrLxX8-_5s&callback=initMapforcontact"></script>
     <script src="../js/app.js"></script>
+    <script src="../js/swiper.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            effect: 'coverflow',
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: 'auto',
+            coverflowEffect: {
+                rotate: 30,
+                stretch: 0,
+                depth: 200,
+                modifier: 1,
+                slideShadows: true,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+            },
+        });
+    </script>
     <script type="text/javascript">
 
         // Menu-toggle button
