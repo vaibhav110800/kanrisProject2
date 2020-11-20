@@ -4894,8 +4894,92 @@ input[name="r1"]{
     background-repeat: no-repeat;
     background-position: 50% 50%;
 }
-
 .dom-sec5{
+    height: 500px;
+    width: 900px;
+    margin: 30px auto;
+    /* background-color: #2874A6; */
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+.dom-sec5-top{
+    display: flex;
+}
+.dom-sec5-bottom{
+    display: flex;
+}
+.dom-sec5-top-inner{
+    height: 250px;
+    width: 450px;
+    overflow: hidden;
+    position: relative;
+    border: 2px solid white ;
+}
+.dom-sec5-bottom-inner{
+    height: 250px;
+    width: 300px;
+    overflow: hidden;
+    position: relative;
+    border: 2px solid white ;
+}
+.dom-sec5-box{
+    transition: all 1s;
+}
+.dom-sec5-box:hover{
+    transform: scale(1.2);
+}
+.dom-sec5-text{
+    font-size:16px;
+    position: absolute;
+    left: 5%;
+    bottom: 5%;
+    background-color: transparent;
+    z-index: 2;
+    color: white;
+    letter-spacing: 2px;
+}
+.dom-sec5-box1{
+    width: 100%;
+    height: 100%;
+    background:linear-gradient(0deg, rgba(40,116,166, .6), rgba(40,116,166,0.6)), url(../images/3.projects/4.dom/gym.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.dom-sec5-box2{
+    width: 100%;
+    height: 100%;
+    background:linear-gradient(0deg, rgba(40,116,166,.3), rgba(40,116,166,.3)),  url(../images/3.projects/4.dom/communityHall.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 10% 50%;
+}
+.dom-sec5-box3{
+    height: 100%;
+    width: 100%;
+    background:linear-gradient(0deg, rgba(40,116,166, .6), rgba(40,116,166,0.6)), url(../images/3.projects/4.dom/eco-park.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.dom-sec5-box4{
+    height: 100%;
+    width: 100%;
+    background:linear-gradient(0deg, rgba(40,116,166, .6), rgba(40,116,166,0.6)), url(../images/3.projects/4.dom/games.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.dom-sec5-box5{
+    height: 100%;
+    width: 100%;
+    background:linear-gradient(0deg, rgba(40,116,166,.8), rgba(40,116,166,.8)), url(../images/3.projects/4.dom/swimming.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+/* .dom-sec5{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -4992,7 +5076,7 @@ input[name="r1"]{
 .card .content span{
     color: #922B21;
     font-size: 22px;
-}
+} */
 
 .dom-sec6{
     width: 1300px;
@@ -5118,123 +5202,7 @@ input[name="r1"]{
     width: 900px;
     height: 300px;
 }
-/* .dom-sec5{
-    width: 1200px;
-    height: 280px;
-    margin: 0px auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #2874A6;
-}
-.dom-sec5-box1{
-    height: 230px;
-    width: 220px;
-    margin-left: 10px;
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    flex-direction: column;
-}
-.dom-sec5-head{
-    font-family: 'Open Sans', sans-serif;
-    color: #D0D3D4;
-    font-size: 20px;
-    letter-spacing: 2px;
-    font-weight: 800;
-    padding: 8px 0;
-}
-.dom-sec5-para{
-    font-family: 'Poppins', sans-serif;
-    color: whitesmoke;
-    font-size: 12px;
-    letter-spacing: 1px;
-    padding: 8px 0;
-}
-.dom-sec5-box2-top{
-    background: url(../images/3.projects/4.dom/gym.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    height: 180px;
-    width: 220px;
-}
 
-.dom-sec5-box2-bottom{
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    background-color: #E5E7E9;
-    color: #2874A6;
-    height: 50px;
-    width: 220px;
-    font-family: 'Poppins', sans-serif;
-    font-size: 14px;
-    letter-spacing: 1px;
-}
-.dom-sec5-box3-top{
-    background: url(../images/3.projects/4.dom/swimming.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    height: 180px;
-    width: 220px;
-}
-
-.dom-sec5-box3-bottom{
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    background-color: #E5E7E9;
-    color: #2874A6;
-    height: 50px;
-    width: 220px;
-    font-family: 'Poppins', sans-serif;
-    font-size: 14px;
-    letter-spacing: 1px;
-}
-.dom-sec5-box4-top{
-    background: url(../images/3.projects/4.dom/eco-park.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    height: 180px;
-    width: 220px;
-}
-
-.dom-sec5-box4-bottom{
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    background-color: #E5E7E9;
-    color: #2874A6;
-    height: 50px;
-    width: 220px;
-    font-family: 'Poppins', sans-serif;
-    font-size: 14px;
-    letter-spacing: 1px;
-}
-.dom-sec5-box5-top{
-    background: url(../images/3.projects/4.dom/games.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    height: 180px;
-    width: 220px;
-}
-
-.dom-sec5-box5-bottom{
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    background-color: #E5E7E9;
-    color: #2874A6;
-    height: 50px;
-    width: 220px;
-    font-family: 'Poppins', sans-serif;
-    font-size: 14px;
-    letter-spacing: 1px;
-}
 
 .dom-bottom{
     font-family: 'Poppins', sans-serif;
@@ -5243,4 +5211,4 @@ input[name="r1"]{
     color: #2874A6;
     text-align: center;
     padding-bottom: 15px;
-} */
+} 
