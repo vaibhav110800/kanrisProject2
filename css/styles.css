@@ -22,6 +22,8 @@ font-family: 'Pacifico', cursive;
 html, body {
     margin: 0;
     padding: 0;
+    width: 100vw;
+    overflow-x: hidden;
 }
 
 
@@ -3638,8 +3640,8 @@ input[name="r1"]{
 
 .me-section8{
     text-align: center;
-    padding-top: 5px;
-    padding-bottom: 18px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     color: #c0b58d;
     font-family: 'Montserrat', sans-serif;
     font-size: 10px;
@@ -3691,6 +3693,97 @@ input[name="r1"]{
     font-size: 15px;
     letter-spacing: 1px;
 }
+.pit-sec-book{
+    background: linear-gradient(to bottom, rgba(151,217,252,1) 10%, rgba(154,218,253,1) 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 15px;
+}
+.pit-sec-b-inner{
+    width: 70%;
+    margin: 0 auto;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: red; */
+}
+.pit-sec-b-h{
+    font-size: 40px;
+    padding-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #2980b9;
+}
+.pit-sec-b-left{
+    width: 100%;
+    background:linear-gradient(to bottom, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.7) 80%), url(../images/3.projects/3.pitampura/z3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 5%;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.pit-sec-b-left-inner{
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.pit-sec-b-left-form-input{
+    margin-bottom: 12%;
+}
+.pit-sec-b-left-form-input input{
+    background-color: transparent;
+    width: 300px;
+    border: none;
+    border-bottom: 2px solid #2980B9;
+    color: #2980B9;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 3%;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+.pit-sec-b-left-form-input input::placeholder{
+    color:#797D7F;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+.pit-sec-b-left-form-button{
+    width: 90px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2980B9;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+.pit-sec-b-left-form-button a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+.pit-sec-b-left-form-button:hover a{
+    color:#E5E7E9;
+}
+
 .pit-section2{
     background: linear-gradient(to bottom, rgba(151,217,252,1) 10%, rgba(154,218,253,1) 20%,
                              rgba(173,224,253,1) 30%, rgba(185,229,254,1) 40%, rgba(189,231,255,1) 50%,
@@ -4189,6 +4282,32 @@ input[name="r1"]{
         font-size: 12px;
         padding-bottom: 18px;
     }
+
+    .pit-sec-b-left{
+        width: 90%;
+    }
+    .pit-sec-b-left-inner{
+        width: 80%;
+        height: 100%;
+    }
+    .pit-sec-b-left-form-input{
+        margin-bottom: 12%;
+    }
+    .pit-sec-b-left-form-input input{
+        width: 300px;
+        padding-left: 3%;
+        font-size: 14px;
+    }
+    .pit-sec-b-left-form-input input::placeholder{
+        font-size: 12px;
+    }
+    .pit-sec-b-left-form-button{
+        width: 90px;
+        height: 40px;
+    }
+    .pit-sec-b-left-form-button a{
+        font-size: 12px;
+    }
 }
 
 @media screen and (min-width:768px) and (max-width:999px){
@@ -4391,6 +4510,32 @@ input[name="r1"]{
     .pit-sec-copy{
         font-size: 12px;
         padding-bottom: 18px;
+    }
+
+    .pit-sec-b-left{
+        width: 100%;
+    }
+    .pit-sec-b-left-inner{
+        width: 100%;
+        height: 100%;
+    }
+    .pit-sec-b-left-form-input{
+        margin-bottom: 12%;
+    }
+    .pit-sec-b-left-form-input input{
+        width: 250px;
+        padding-left: 3%;
+        font-size: 14px;
+    }
+    .pit-sec-b-left-form-input input::placeholder{
+        font-size: 12px;
+    }
+    .pit-sec-b-left-form-button{
+        width: 90px;
+        height: 40px;
+    }
+    .pit-sec-b-left-form-button a{
+        font-size: 12px;
     }
 }
 
@@ -4601,6 +4746,40 @@ input[name="r1"]{
     .pit-sec-copy{
         font-size: 12px;
         padding-bottom: 18px;
+    }
+
+    .pit-sec-b-inner{
+        width: 90%;
+    }
+    .pit-sec-b-left{
+        width: 100%;
+        min-height: 50vh;
+        margin: 0 auto 10px auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .pit-sec-b-left-inner{
+        width: 100%;
+        height: 100%;
+    }
+    .pit-sec-b-left-form-input{
+        margin-bottom: 12%;
+    }
+    .pit-sec-b-left-form-input input{
+        width: 250px;
+        padding-left: 3%;
+        font-size: 14px;
+    }
+    .pit-sec-b-left-form-input input::placeholder{
+        font-size: 12px;
+    }
+    .pit-sec-b-left-form-button{
+        width: 90px;
+        height: 40px;
+    }
+    .pit-sec-b-left-form-button a{
+        font-size: 12px;
     }
 }
 
